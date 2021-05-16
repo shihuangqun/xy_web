@@ -1,0 +1,1716 @@
+---------------------------------------------------------------
+[ 2021-03-25T00:23:00+08:00 ] 121.51.58.171 POST dsn.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.339408s] [吞吐率：2.95req/s] [内存消耗：6,562.23kb] [文件加载：266]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001494s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001502s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000132s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/dsn.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000925s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[605b1202006d0]]></nonce_str>
+<openid><![CDATA[oGCLw4jzWhEeiW8gvstsR6nQc1hk]]></openid>
+<out_trade_no><![CDATA[769715523964]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[1B07C350DFBC2FD41A32DB646DE7216C]]></sign>
+<time_end><![CDATA[20210324181846]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000981202103249434581296]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-25T02:52:56+08:00 ] 121.51.58.173 POST dsn.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.355043s] [吞吐率：2.82req/s] [内存消耗：6,562.24kb] [文件加载：266]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001589s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001598s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/dsn.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001105s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[605b1202006d0]]></nonce_str>
+<openid><![CDATA[oGCLw4jzWhEeiW8gvstsR6nQc1hk]]></openid>
+<out_trade_no><![CDATA[769715523964]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[1B07C350DFBC2FD41A32DB646DE7216C]]></sign>
+<time_end><![CDATA[20210324181846]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000981202103249434581296]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-25T03:23:01+08:00 ] 121.51.58.173 POST dsn.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.357693s] [吞吐率：2.80req/s] [内存消耗：6,562.24kb] [文件加载：266]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001629s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001638s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000133s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/dsn.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000947s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[605b1202006d0]]></nonce_str>
+<openid><![CDATA[oGCLw4jzWhEeiW8gvstsR6nQc1hk]]></openid>
+<out_trade_no><![CDATA[769715523964]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[1B07C350DFBC2FD41A32DB646DE7216C]]></sign>
+<time_end><![CDATA[20210324181846]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000981202103249434581296]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-25T05:52:57+08:00 ] 121.51.58.173 POST dsn.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.368611s] [吞吐率：2.71req/s] [内存消耗：6,562.24kb] [文件加载：266]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001626s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001637s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000133s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/dsn.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000969s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[605b1202006d0]]></nonce_str>
+<openid><![CDATA[oGCLw4jzWhEeiW8gvstsR6nQc1hk]]></openid>
+<out_trade_no><![CDATA[769715523964]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[1B07C350DFBC2FD41A32DB646DE7216C]]></sign>
+<time_end><![CDATA[20210324181846]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000981202103249434581296]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-25T06:23:01+08:00 ] 121.51.58.173 POST dsn.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.342553s] [吞吐率：2.92req/s] [内存消耗：6,562.24kb] [文件加载：266]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001534s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001542s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000141s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/dsn.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000911s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[605b1202006d0]]></nonce_str>
+<openid><![CDATA[oGCLw4jzWhEeiW8gvstsR6nQc1hk]]></openid>
+<out_trade_no><![CDATA[769715523964]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[1B07C350DFBC2FD41A32DB646DE7216C]]></sign>
+<time_end><![CDATA[20210324181846]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000981202103249434581296]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-25T09:21:37+08:00 ] 34.77.162.18 GET dsn.shalage.top/
+[运行时间：0.021858s] [吞吐率：45.75req/s] [内存消耗：3,041.99kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001525s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001533s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000139s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Expanse indexes the network perimeters of our customers. If you have any questions or concerns, please reach out to: scaninfo@expanseinc.com',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000832s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/dsn.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T09:41:14+08:00 ] 124.78.72.119 GET dsn.shalage.top/favicon.ico
+[运行时间：0.017115s] [吞吐率：58.43req/s] [内存消耗：2,360.59kb] [文件加载：117]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001670s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001678s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T10:23:19+08:00 ] 180.163.220.67 GET dsn.shalage.top/
+[运行时间：0.025751s] [吞吐率：38.83req/s] [内存消耗：3,044.57kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002023s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002038s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000172s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001077s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/dsn.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T10:23:20+08:00 ] 180.163.220.67 GET dsn.shalage.top/
+[运行时间：0.022413s] [吞吐率：44.62req/s] [内存消耗：3,046.82kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001631s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001640s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000128s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000869s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/dsn.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:42:09+08:00 ] 113.91.41.193 POST dsn.shalage.top//api/index/index
+[运行时间：0.026650s] [吞吐率：37.52req/s] [内存消耗：3,910.20kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001529s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001538s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000140s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2009301 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:40144',
+  'sec-fetch-mode' => 'cors',
+  'sec-ch-ua' => 'nwjs 75',
+  'content-length' => '2',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000811s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:43:18+08:00 ] 113.91.41.193 POST dsn.shalage.top//api/index/index
+[运行时间：0.028899s] [吞吐率：34.60req/s] [内存消耗：3,910.20kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001507s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001517s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000153s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2009301 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:40144',
+  'sec-fetch-mode' => 'cors',
+  'sec-ch-ua' => 'nwjs 75',
+  'content-length' => '2',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000819s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:43:34+08:00 ] 113.91.41.193 POST dsn.shalage.top//api/index/index
+[运行时间：0.025156s] [吞吐率：39.75req/s] [内存消耗：3,906.86kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001477s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001485s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000140s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000828s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:43:36+08:00 ] 113.91.41.193 POST dsn.shalage.top/api/index/login
+[运行时间：0.230333s] [吞吐率：4.34req/s] [内存消耗：3,928.52kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000480s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001616s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001625s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000130s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '240',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '未来在这',
+  'avatar' => 'https://thirdwx.qlogo.cn/mmopen/vi_32/0Bsq75dH2BcaFiculdyyFPhMcqb1quJnkYsThHfm4EWO777zCFYx7zhuJeW5AHsIELACjEEq3miaAElgPXuFpjCQ/132',
+  'gender' => 1,
+  'code' => '093xBc0w31xQ4W2LJp1w3WvWVL3xBc0I',
+  'ids' => 'undefined',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000797s ]
+[ info ] [ RUN ] app\api\controller\Index->login[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:43:43+08:00 ] 113.91.41.193 POST dsn.shalage.top//api/index/jieguo
+[运行时间：0.025037s] [吞吐率：39.94req/s] [内存消耗：3,990.87kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001520s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001528s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000155s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jieguo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000853s ]
+[ info ] [ RUN ] app\api\controller\Index->jieguo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T03:43:49+00:00 ] 113.91.41.193 GET dsn.shalage.top//api/personal/getInfo?member_id=77
+[运行时间：0.027652s] [吞吐率：36.16req/s] [内存消耗：3,994.38kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001704s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001712s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => '77',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000858s ]
+[ info ] [ RUN ] app\api\controller\personal->getInfo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:44:05+08:00 ] 113.91.41.193 POST dsn.shalage.top//api/index/index
+[运行时间：0.027677s] [吞吐率：36.13req/s] [内存消耗：3,910.20kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001596s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001604s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000159s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2009301 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:40144',
+  'sec-fetch-mode' => 'cors',
+  'sec-ch-ua' => 'nwjs 75',
+  'content-length' => '2',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000832s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:44:13+08:00 ] 113.91.41.193 POST dsn.shalage.top//api/index/index
+[运行时间：0.027424s] [吞吐率：36.46req/s] [内存消耗：3,906.86kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001587s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001595s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000187s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000869s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:44:17+08:00 ] 113.91.41.193 POST dsn.shalage.top/api/index/login
+[运行时间：0.240303s] [吞吐率：4.16req/s] [内存消耗：3,928.52kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001602s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001611s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000132s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '240',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '未来在这',
+  'avatar' => 'https://thirdwx.qlogo.cn/mmopen/vi_32/0Bsq75dH2BcaFiculdyyFPhMcqb1quJnkYsThHfm4EWO777zCFYx7zhuJeW5AHsIELACjEEq3miaAElgPXuFpjCQ/132',
+  'gender' => 1,
+  'code' => '0535Ec0w3bzQ4W22PQ3w3YXcZS15Ec00',
+  'ids' => 'undefined',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000850s ]
+[ info ] [ RUN ] app\api\controller\Index->login[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:44:27+08:00 ] 113.91.41.193 POST dsn.shalage.top//api/index/index
+[运行时间：0.025662s] [吞吐率：38.97req/s] [内存消耗：3,910.20kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001508s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001516s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000147s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2009301 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:40144',
+  'sec-fetch-mode' => 'cors',
+  'sec-ch-ua' => 'nwjs 75',
+  'content-length' => '2',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000837s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:47:20+08:00 ] 113.91.41.193 POST dsn.shalage.top//api/index/index
+[运行时间：0.025285s] [吞吐率：39.55req/s] [内存消耗：3,910.20kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001502s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001510s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000131s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2009301 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:40144',
+  'sec-fetch-mode' => 'cors',
+  'sec-ch-ua' => 'nwjs 75',
+  'content-length' => '2',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000836s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:52:59+08:00 ] 121.51.58.171 POST dsn.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.329995s] [吞吐率：3.03req/s] [内存消耗：6,562.24kb] [文件加载：266]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001537s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001545s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000130s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/dsn.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000930s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[605b1202006d0]]></nonce_str>
+<openid><![CDATA[oGCLw4jzWhEeiW8gvstsR6nQc1hk]]></openid>
+<out_trade_no><![CDATA[769715523964]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[1B07C350DFBC2FD41A32DB646DE7216C]]></sign>
+<time_end><![CDATA[20210324181846]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000981202103249434581296]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-25T12:23:02+08:00 ] 121.51.58.171 POST dsn.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.411251s] [吞吐率：2.43req/s] [内存消耗：6,562.24kb] [文件加载：266]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001610s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001618s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000163s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/dsn.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000959s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[605b1202006d0]]></nonce_str>
+<openid><![CDATA[oGCLw4jzWhEeiW8gvstsR6nQc1hk]]></openid>
+<out_trade_no><![CDATA[769715523964]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[1B07C350DFBC2FD41A32DB646DE7216C]]></sign>
+<time_end><![CDATA[20210324181846]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000981202103249434581296]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-25T09:42:38+00:00 ] 112.17.247.96 GET dsn.shalage.top//api/personal/getInfo?member_id=undefined
+[运行时间：0.037128s] [吞吐率：26.93req/s] [内存消耗：3,991.02kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002131s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002146s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000210s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/1/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => 'undefined',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001189s ]
+[ info ] [ RUN ] app\api\controller\personal->getInfo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T17:42:38+08:00 ] 112.17.247.96 POST dsn.shalage.top//api/index/jieguo
+[运行时间：0.047691s] [吞吐率：20.97req/s] [内存消耗：3,990.74kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002236s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002252s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000224s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jieguo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/1/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001182s ]
+[ info ] [ RUN ] app\api\controller\Index->jieguo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T09:43:01+00:00 ] 112.17.247.96 GET dsn.shalage.top//api/personal/getInfo?member_id=undefined
+[运行时间：0.025886s] [吞吐率：38.63req/s] [内存消耗：3,991.02kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001500s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001508s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000130s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/1/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => 'undefined',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000805s ]
+[ info ] [ RUN ] app\api\controller\personal->getInfo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T17:43:04+08:00 ] 112.17.247.96 POST dsn.shalage.top/api/index/login
+[运行时间：0.178750s] [吞吐率：5.59req/s] [内存消耗：3,886.63kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001688s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001696s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000132s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/1/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '224',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '这',
+  'avatar' => 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q3auHgzwzM6jWJqDwfUtMFwRX2zne0WFrziaawbib5OictUYIyia3crE8TUcAIpfVAH7Ncwz7aBVlFwAOBsEEhrf6g/132',
+  'gender' => 2,
+  'code' => '001RaYkl2tacK64m1anl2eVmhw1RaYkr',
+  'ids' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000821s ]
+[ info ] [ RUN ] app\api\controller\Index->login[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T09:43:05+00:00 ] 112.17.247.96 GET dsn.shalage.top//api/personal/getInfo?member_id=81
+[运行时间：0.026173s] [吞吐率：38.21req/s] [内存消耗：3,994.37kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001588s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001602s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000134s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/1/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => '81',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000816s ]
+[ info ] [ RUN ] app\api\controller\personal->getInfo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T09:43:12+00:00 ] 112.17.247.96 GET dsn.shalage.top/api/personal/share?id=81
+[运行时间：0.758157s] [吞吐率：1.32req/s] [内存消耗：3,090.99kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001555s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001563s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000135s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/1/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '81',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000869s ]
+[ info ] [ RUN ] app\api\controller\personal->share[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T09:43:50+00:00 ] 112.17.247.96 GET dsn.shalage.top//api/personal/getMemberInfo?member_id=81
+[运行时间：0.026612s] [吞吐率：37.58req/s] [内存消耗：3,993.28kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001579s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001587s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000153s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'getMemberInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/1/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => '81',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000911s ]
+[ info ] [ RUN ] app\api\controller\personal->getMemberInfo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T09:43:56+00:00 ] 112.17.247.96 GET dsn.shalage.top/api/personal/share?id=81
+[运行时间：0.723482s] [吞吐率：1.38req/s] [内存消耗：3,090.99kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002966s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002975s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000139s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/1/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '81',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000827s ]
+[ info ] [ RUN ] app\api\controller\personal->share[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T09:44:11+00:00 ] 112.17.247.96 GET dsn.shalage.top//api/personal/getMemberInfo?member_id=81
+[运行时间：0.027825s] [吞吐率：35.94req/s] [内存消耗：3,993.28kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001708s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001717s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'getMemberInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/1/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000238) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => '81',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000870s ]
+[ info ] [ RUN ] app\api\controller\personal->getMemberInfo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T17:53:01+08:00 ] 121.51.58.171 POST dsn.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.451838s] [吞吐率：2.21req/s] [内存消耗：6,562.24kb] [文件加载：266]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001564s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001572s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000130s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/dsn.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001005s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[605b1202006d0]]></nonce_str>
+<openid><![CDATA[oGCLw4jzWhEeiW8gvstsR6nQc1hk]]></openid>
+<out_trade_no><![CDATA[769715523964]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[1B07C350DFBC2FD41A32DB646DE7216C]]></sign>
+<time_end><![CDATA[20210324181846]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000981202103249434581296]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-25T19:20:20+08:00 ] 116.178.233.173 POST dsn.shalage.top//api/index/index
+[运行时间：0.026477s] [吞吐率：37.77req/s] [内存消耗：3,910.41kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001531s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001540s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.1911180 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:63099',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '2',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000876s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T19:20:23+08:00 ] 116.178.233.173 POST dsn.shalage.top/api/index/login
+[运行时间：0.164286s] [吞吐率：6.09req/s] [内存消耗：3,931.93kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001751s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001760s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000131s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.1911180 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:63099',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '231',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '-',
+  'avatar' => 'https://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83ep5PaLtgLhcgUu2icuUJtEfCpQ7ETqpSYHGwjDhd62pER2naQXXsXhCCUEfwTiaibxDkTOgTXibVgtqTA/132',
+  'gender' => 1,
+  'code' => '051LBZ0008nlqL1AAB100KdI644LBZ0v',
+  'ids' => 'undefined',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000825s ]
+[ info ] [ RUN ] app\api\controller\Index->login[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:20:28+00:00 ] 116.178.233.173 GET dsn.shalage.top//api/personal/getInfo?member_id=78
+[运行时间：0.027719s] [吞吐率：36.08req/s] [内存消耗：3,997.63kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001486s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001494s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.1911180 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => '78',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000842s ]
+[ info ] [ RUN ] app\api\controller\personal->getInfo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T19:21:13+08:00 ] 116.178.233.173 POST dsn.shalage.top//api/index/index
+[运行时间：0.025764s] [吞吐率：38.81req/s] [内存消耗：3,910.41kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001532s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001541s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000161s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.1911180 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:53940',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '2',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001075s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:21:20+00:00 ] 116.178.233.173 GET dsn.shalage.top//api/personal/getInfo?member_id=78
+[运行时间：0.027799s] [吞吐率：35.97req/s] [内存消耗：3,997.63kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001861s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001870s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000168s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.1911180 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => '78',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001021s ]
+[ info ] [ RUN ] app\api\controller\personal->getInfo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:21:25+00:00 ] 116.178.233.173 GET dsn.shalage.top//api/personal/getInfo?member_id=78
+[运行时间：0.026510s] [吞吐率：37.72req/s] [内存消耗：3,997.63kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001522s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001530s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000172s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.1911180 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => '78',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000814s ]
+[ info ] [ RUN ] app\api\controller\personal->getInfo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T19:21:49+08:00 ] 116.178.233.173 POST dsn.shalage.top//api/index/index
+[运行时间：0.025425s] [吞吐率：39.33req/s] [内存消耗：3,910.41kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001496s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001504s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000144s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.1911180 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:26855',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '2',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000816s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T19:22:38+08:00 ] 116.178.233.173 POST dsn.shalage.top//api/index/jieguo
+[运行时间：0.025400s] [吞吐率：39.37req/s] [内存消耗：3,994.42kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001523s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001532s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000130s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jieguo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.1911180 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:26855',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '2',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000827s ]
+[ info ] [ RUN ] app\api\controller\Index->jieguo[ /www/wwwroot/dsn.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-25T11:22:51+00:00 ] 116.178.233.173 GET dsn.shalage.top//api/personal/send?mobile=13079955373&str=0.1628501729834706
+[运行时间：0.729339s] [吞吐率：1.37req/s] [内存消耗：3,058.10kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001509s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001517s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000133s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'send',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.1911180 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13079955373',
+  'str' => '0.1628501729834706',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000840s ]
+[ info ] [ RUN ] app\api\controller\personal->send[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File

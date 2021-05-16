@@ -1,0 +1,2118 @@
+---------------------------------------------------------------
+[ 2021-03-04T01:33:47+08:00 ] 73.218.181.110 GET dsn.shalage.top/
+[运行时间：0.023942s] [吞吐率：41.77req/s] [内存消耗：2,936.79kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000820s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000198s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'utf-8',
+  'user-agent' => 'httpx - Open-source project (github.com/projectdiscovery/httpx)',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001090s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/dsn.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:11:14+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.016146s] [吞吐率：61.94req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000817s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:11:15+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015426s] [吞吐率：64.83req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000715s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000181s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:11:15+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015467s] [吞吐率：64.65req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000731s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000179s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:38+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015709s] [吞吐率：63.66req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000694s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000179s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:39+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015701s] [吞吐率：63.69req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000746s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000198s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:39+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015958s] [吞吐率：62.67req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000757s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000186s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:40+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015579s] [吞吐率：64.19req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000744s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000197s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:40+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015291s] [吞吐率：65.40req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000735s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:41+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015460s] [吞吐率：64.68req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000740s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:42+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015323s] [吞吐率：65.26req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000671s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:42+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015477s] [吞吐率：64.61req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000700s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000194s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:43+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015655s] [吞吐率：63.88req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000712s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:43+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015382s] [吞吐率：65.01req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000708s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000192s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:44+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015922s] [吞吐率：62.81req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000816s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000219s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:45+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.017963s] [吞吐率：55.67req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002880s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000195s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T10:13:45+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015892s] [吞吐率：62.92req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000701s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T11:59:21+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.015709s] [吞吐率：63.66req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000672s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000202s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T11:59:22+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.019015s] [吞吐率：52.59req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004069s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000221s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T11:59:22+08:00 ] 124.78.124.211 GET dsn.shalage.top/favicon.ico
+[运行时间：0.016042s] [吞吐率：62.34req/s] [内存消耗：2,047.84kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000696s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T13:40:23+08:00 ] 219.134.115.163 GET dsn.shalage.top/admin.php/dashboard?ref=addtabs
+[运行时间：0.040662s] [吞吐率：24.59req/s] [内存消耗：4,068.13kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000789s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000193s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8ef9ehe3nglju14dbudqn16d5j; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001096s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dsn.shalage.top/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000110s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T13:40:27+08:00 ] 219.134.115.163 GET dsn.shalage.top/admin.php/index/login?url=%2Fadmin.php%2Fdashboard%3Fref%3Daddtabs
+[运行时间：0.025729s] [吞吐率：38.87req/s] [内存消耗：3,377.06kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000728s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000181s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8ef9ehe3nglju14dbudqn16d5j; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://dsn.shalage.top/admin.php/dashboard?ref=addtabs',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin.php/dashboard?ref=addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001102s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/dsn.shalage.top/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/dsn.shalage.top/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000066s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T13:40:27+08:00 ] 219.134.115.163 GET dsn.shalage.top/index.php?s=/captcha
+[运行时间：0.039679s] [吞吐率：25.20req/s] [内存消耗：2,069.52kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000679s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000184s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8ef9ehe3nglju14dbudqn16d5j; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/dsn.shalage.top/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T13:40:31+08:00 ] 219.134.115.163 GET dsn.shalage.top/admin.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1614836426&v=1614836426
+[运行时间：0.025122s] [吞吐率：39.81req/s] [内存消耗：3,390.86kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000709s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000179s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8ef9ehe3nglju14dbudqn16d5j; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'dsn.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1614836426',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001352s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/dsn.shalage.top/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000071s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:01:10+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&timestamp=2021-03-04%2013:58:02
+[运行时间：0.093882s] [吞吐率：10.65req/s] [内存消耗：2,687.84kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000736s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000196s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '7665104a-db16-4a49-89fe-b6112ef6598a',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'timestamp' => '2021-03-04 13:58:02',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001107s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:10:18+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&timestamp=2021-03-04%2014:07:02&mobileNo=17688866068&rechargeAmount=20
+[运行时间：0.091543s] [吞吐率：10.92req/s] [内存消耗：2,688.15kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000763s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '5c0853c8-1511-47e4-b4ca-7173bea1b5b7',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'timestamp' => '2021-03-04 14:07:02',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001108s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:10:20+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&timestamp=2021-03-04%2014:07:02&mobileNo=17688866068&rechargeAmount=20
+[运行时间：0.092936s] [吞吐率：10.76req/s] [内存消耗：2,688.15kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000735s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000201s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'd934ab7a-5d25-47ef-8385-d01d10729954',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'timestamp' => '2021-03-04 14:07:02',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001103s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:11:10+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&timestamp=2021-03-04%2014:07:02&mobileNo=17688866068&rechargeAmount=20
+[运行时间：0.097421s] [吞吐率：10.26req/s] [内存消耗：2,687.94kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000702s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000183s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'bd0cf44f-e21d-4a39-a4fc-f31ad417375d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'timestamp' => '2021-03-04 14:07:02',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001091s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:20:14+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&timestamp=2021-03-04%2014:07:02&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.101539s] [吞吐率：9.85req/s] [内存消耗：2,687.94kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000712s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'fc969241-f8c3-454f-8ec6-fc6dd8323a44',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'timestamp' => '2021-03-04 14:07:02',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001178s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:20:45+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&timestamp=2021-03-04%2014:07:02&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.099766s] [吞吐率：10.02req/s] [内存消耗：2,687.94kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000725s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000184s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'df027996-cfcb-4ec0-b4de-10185dfde14b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'timestamp' => '2021-03-04 14:07:02',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001091s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:22:12+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&timestamp=2021-03-04%2014:07:02&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.091640s] [吞吐率：10.91req/s] [内存消耗：2,688.19kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002178s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000231s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'bbd8defd-86fb-4e5d-8c6a-e8fd2184e8e9',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'timestamp' => '2021-03-04 14:07:02',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001254s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:22:24+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&timestamp=2021-03-04%2014:07:02&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.096282s] [吞吐率：10.39req/s] [内存消耗：2,688.69kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000723s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000197s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '3797c294-c119-4f0f-a4d8-90a13b834270',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'timestamp' => '2021-03-04 14:07:02',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001085s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:22:33+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&timestamp=2021-03-04%2014:07:02&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.094843s] [吞吐率：10.54req/s] [内存消耗：2,688.15kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000715s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000184s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'e35c9ee7-bdc8-4182-a502-e731ed58d051',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'timestamp' => '2021-03-04 14:07:02',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001090s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:24:17+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&timestamp=2021-03-04%2014:22:02&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.096995s] [吞吐率：10.31req/s] [内存消耗：2,688.15kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000704s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000181s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '9e662fd6-f195-4e21-beff-a6495feae5f6',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'timestamp' => '2021-03-04 14:22:02',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001088s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:26:51+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.099070s] [吞吐率：10.09req/s] [内存消耗：2,688.53kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000700s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000184s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '28607513-0c0b-42e9-bf40-8914e379084c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001093s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:26:56+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.096015s] [吞吐率：10.42req/s] [内存消耗：2,688.53kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003339s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000188s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'b130ffe0-3e65-4c0d-844f-b90265d9fb88',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001115s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T14:26:58+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.099261s] [吞吐率：10.07req/s] [内存消耗：2,688.53kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000719s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000184s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'cb167673-bef0-4c75-81c1-bbc60a37356f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001078s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:07:45+08:00 ] 59.36.132.240 GET dsn.shalage.top/
+[运行时间：0.023680s] [吞吐率：42.23req/s] [内存消耗：3,216.76kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000701s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'referer' => 'http://dsn.shalage.top/',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'dsn.shalage.top',
+  'cookie' => '.ASPXANONYMOUS=HOxzkLNG1wEkAAAANWYwNzc5NTktMTA2YS00OWI2LTkyMGItMGY4MDM5YTc4MWFieySgJhakaxcBLk0vU-_dqFYgFgxylBRjyJURzDEZCJY1; 0ea140c2c86b9610cea52da5bc1e3815=o749narm3pje05j7kqlqug8m37; 1d8ce8629fe0b7b570ae8cb06dba39felatest_time_id=8; 1d8ce8629fe0b7b570ae8cb06dba39feuser_read_id=8; 2a0d2363701f23f8a75028924a3af643=NTkuMzYuMTMyLjI0MA%3D%3D; 30ababf19f8f902fa2984bc0116cc4d3=en-GB; 56b821f0423b668ae5b1bf0e93e1bf39=709759f677c6bd3133871e4ab388f2a5; 5d6fb81d1f871a290099d01c15e4d68d=a2b1f671d5cdead52627ebaa43745f7341de0cb4s%3A15%3A%22%2Fcz%2Fp13812.html%22%3B; 6dxQ_2132_lastvisit=1614753239; 6dxQ_2132_saltkey=d8m9q903; 7qeL_2132_lastact=1614773834%09forum.php%09viewthread; 7qeL_2132_lastvisit=1614770234; 7qeL_2132_saltkey=KDhKl4Kd; 7qeL_2132_sid=yfpWfP; 83hE_2132_lastact=1614784793%09forum.php%09viewthread; 83hE_2132_lastvisit=1614781193; 83hE_2132_saltkey=vPzXePi1; 83hE_2132_sid=lD7uDQ; 83hE_2132_st_p=0%7C1614784793%7C054620eabcee2aa749adb66934d1ce72; 83hE_2132_viewid=tid_140875; 83hE_2132_visitedfid=63; 9zFe_2132_lastvisit=1614752497; 9zFe_2132_saltkey=vPES5iq3; 9zFe_2132_st_p=0%7C1614756097%7C7c2ccc98e55815c61541e4b7df24f023; 9zFe_2132_viewid=tid_732; 9zFe_2132_visitedfid=530; __brid=CgoQkmA/VZAcNAbjeVK2Ag==; __jsluid_h=a090c171aff4864547e6a357c4d02fb9; __ZHANZHANG_SID__=qPcightXEMOCKGHKncNQxUSWtkJwD-oL; __ZHANZHANG_SID__.sig=3zBb4MHY2UIq-aX6JmrRECEqWOY; _csrf=2354b5edaef3698d97ce6e15a41ac39883ff48d6296dc16c2efff0cd2516f8aaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KK31fgsvG-PJi-kcbIRaYQ-v-aiHu4l9%22%3B%7D; _csrf-frontend=715964a2ef8ff0db55b5bbf06648a2b7a96eed79be7a8a8db5cf973be86d4feea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229i-varxXRGk51ZIJxgk-6y_vDzQsN7vh%22%3B%7D; _d_id=5ce40341744aa2547109735f44f352; _gitlab_session=b15f5c73bdbde1873e25153a44205b26; a3JX_2132_lastvisit=1614752755; a3JX_2132_saltkey=e4O5NR4p; a3JX_2132_st_p=0%7C1614756355%7Ca48032045f3cbece63353dee74a65ee8; a3JX_2132_viewid=tid_1153285; a3JX_2132_visitedfid=179; Abp.Localization.CultureName=zh-CN; ABTEST=1|1614761717|v1; admin_lang=cn; ajDy_2132_atarget=1; ajDy_2132_forum_lastvisit=D_8673_1614847823; ajDy_2132_lastact=1614847823%09forum.php%09forumdisplay; ajDy_2132_lastvisit=1614768976; ajDy_2132_saltkey=eV3JX6gX; ajDy_2132_sid=mzv33J; ajDy_2132_st_p=0%7C1614772576%7Cee738745440e73ce52aaae5e86cf2254; ajDy_2132_st_t=0%7C1614847823%7Cc56852f76e14f3aa2f3b3f740254bd5c; ajDy_2132_viewid=tid_1025417; ajDy_2132_visitedfid=8673D8580; aLeR_2132_home_diymode=1; aLeR_2132_lastact=1614813710%09home.php%09space; aLeR_2132_lastvisit=1614810110; aLeR_2132_saltkey=yqUVquCm; aLeR_2132_sid=lsrDEu; aliyungf_tc=673065eb64182e00185098d241ed9b6aceda7edcd01f8932d98a853726b8c050; AQfn_2132_home_readfeed=1614761273; AQfn_2132_lastvisit=1614757673; AQfn_2132_saltkey=zGv6N7Vv; ASP.NET_SessionId=x2le0d45vpovs4ahbfsinh31; ASPSESSIONIDAABSADSA=NPHLEDADPHBNPMHPBEHIOGHH; ASPSESSIONIDAADCDASA=LIINCJGDPKIFPFOMNBHMHDHP; ASPSESSIONIDAASSQTBS=LIPDDMIDNONCOJONLNLHNJNG; ASPSESSIONIDACBQCCRQ=GOMBHMPDLNKDGEDEOMOMPPEF; ASPSESSIONIDACCARSTC=JNEBFAODFHHLEEFNPKADODJM; ASPSESSIONIDACCTBTBC=AKIFMMADNLHEEKPLNNELAHBB; ASPSESSIONIDACDSCBRS=IAHPIKGDABAHIDNOKPKPOFLJ; ASPSESSIONIDACSQSTQR=CFIKPICDPPMMCGDHGBLPDICK; ASPSESSIONIDACSRQQAA=KCNLOAMDCJCOPODKMHBCCLEC; ASPSESSIONIDAQQQRSRB=NKPPJGGDLJLFGALIOFMHMMIL; ASPSESSIONIDAQSSTBRS=FJADJMODBCBLDGCGKHODIFHO; ASPSESSIONIDAQSTCARD=JMFHIPMDFMBDMGCDECANAEIO; ASPSESSIONIDAQTDTTQQ=PEGHGKKDGBJPIBCFGHBCMDME; ASPSESSIONIDASBDQRCR=ICGDKKODMFFDNKDMJNOGAGLF; ASPSESSIONIDASCARTCQ=ICNLEFODNJDDABDEGHEOCMMP; ASPSESSIONIDASDBQATD=MKJPMBGDMHNFLPJILILEGJBN; ASPSESSIONIDASDTRACA=BNEACOAAKMBBEFMMELICGJEG; ASPSESSIONIDASQBTRDQ=AEFLFHMDDFBPBHKMFGFHLCGL; ASPSESSIONIDASQSDBTQ=IMMFJHDDDFJHDOLGHNGEDGIG; ASPSESSIONIDASRSCSQA=NCCCBNJDMCFOLICNMDOAJPGM; ASPSESSIONIDASSQCQCQ=CLELBPGDKNAFILDLABBOKOLJ; ASPSESSIONIDASTBRTRR=AGPCFKKDICPJJEIICJEAGDEJ; ASPSESSIONIDASTSCBRC=IEOEMDADOOACEEODFEFHMELE; ASPSESSIONIDCAADSCCC=HKKPBJPDFFFJFMFHCEHNGEPN; ASPSESSIONIDCCAASCBT=GPKFLBODOEIMAOFHBEKJOFEE; ASPSESSIONIDCCCDSQTC=DCAMICKDNDIJINPGBJCGGEMJ; ASPSESSIONIDCCDARQTD=FGPJJOAABMEHKNOJPMCMBENN; ASPSESSIONIDCCDBBQBQ=JLJNGEAADHKPKJLPAPJDMMBJ; ASPSESSIONIDCCDCSQSC=DEHDJLMDGHELHHKAMKOBCGBE; ASPSESSIONIDCCQSQDQQ=BEHBEHBANIGDPBNCFADOFOCB; ASPSESSIONIDCQAARSBS=EHEFJLPDCPPHDMFLPKCHJPBB; ASPSESSIONIDCQABCBDQ=NEHOKGKDCOADDIFMADAKHIBI; ASPSESSIONIDCQQARTQR=DLMNFKKDILCJKPHBOHNLDJKB; ASPSESSIONIDCQTATSQQ=MEDHGKKDHDGGEJNBDJLMEOKB; ASPSESSIONIDCSRARAQD=DFFIJJGDAJHBCAILDGHEFHEK; ASPSESSIONIDCSSRCQDQ=OHBCCPGDNEICLKGNCMBOGALK; ASPSESSIONIDQAAAQTRB=APCMEBBAPIGEJFJCHENHGCPJ; ASPSESSIONIDQAABBCBC=AFKMPPKDOEBFJIPFIBNIHEPH; ASPSESSIONIDQACCCQCQ=LJINPEPDPMDIALIBDGHDCNAA; ASPSESSIONIDQADCCABD=IEHLEPNDGHBCMKIOJMIFGKMC; ASPSESSIONIDQCBDBTCR=IFBMBGKDAGCFEJLEFNNNNDIL; ASPSESSIONIDQCSDQRDC=NAJNDKBBFCKODOCIIOHFLDEN; ASPSESSIONIDQQCQQTDD=ENKBLMPDBDAKKIMOIOLDHLDN; ASPSESSIONIDQSCRRQAD=IOMHFPKDEHLFPAJOAAJEBINB; ASPSESSIONIDQSCSQQDC=LCGEPHMDMNMBMPMBLMACLJHG; ASPSESSIONIDQSCTQSDB=PBKJFBKDKNDKCPBGKFJGLBAF; ASPSESSIONIDSAAACSRR=KGKDIMJDNCOBBAEECOEBPFBM; ASPSESSIONIDSAASRBCT=CALKAIFDODKAHJPIBMDCOCLH; ASPSESSIONIDSABBSSQB=MAMHCNNDLLDMDDNMOMJFMOMI; ASPSESSIONIDSABDQTQT=CLPJBBLDNINCLLOECEKJMKFE; ASPSESSIONIDSACBACBD=OPFOOLHDEHFPMAJFINMJIGKC; ASPSESSIONIDSASASRSB=JAKNOBLDNOAGPHOFCPMGPDFP; ASPSESSIONIDSATDBSAQ=LAHLIKAAMHOICHDNLDKALNHD; ASPSESSIONIDSCASASAA=JIMEEAKDJOHEBJPCKCECAJAN; ASPSESSIONIDSCBCCBAC=LPDANCLDHHAPDPMHEDCCLKNP; ASPSESSIONIDSCBCDRCR=NLNGEHKDBKDJJKNCGKEFGBKH; ASPSESSIONIDSCDABRAQ=CFOKDAKDGECEMOEPNGJGKIOM; ASPSESSIONIDSQADRQBT=GKEFCFMDFCLFGOBDOJHCMDEM; ASPSESSIONIDSQARBRSA=OBFHBACDJIOIMEBJICJLOMND; ASPSESSIONIDSQCTQSCA=CMALCLAAHNHEHCMBLHBPBPDB; ASPSESSIONIDSQQADQRC=KDEPGFJDDAPPPJNCIFKEKPOK; ASPSESSIONIDSQRSTADD=IJDJGMIDALDPILFGAKGPJCFH; ASPSESSIONIDSSBASQAD=HONJLANDKKDGNNJJIHMAJAGC; BAEID=63F3B4B59C46754D943CD6A9E8C82B75; bbs_sid=gc9do9k588j97f33r6c7v1vlm7; BcZV_2132_home_diymode=1; BcZV_2132_lastact=1614798409%09index.php%09space; BcZV_2132_lastvisit=1614794809; BcZV_2132_saltkey=uw9qnU7X; BcZV_2132_sid=LzN9e4; beegosessionID=3b31dc20f6acb98108521a933fad89b1; bgt=20210303155206; bh_myaction=Tutor%2Findex%2Fs%2F4%2Farea%2F2322%2Fg%2F12%2Fpre%2F10000%2Fsub%2F27; BIGipServerpool_m.med66.com=419511050.20480.0000; BkGOp9578O_think_template=default; BT_PANEL_6=ececd9e8-75db-4c04-9ffd-2934d8d8c3e2.TLC4SHpS3Vd0nb5sKvADmCbIjvM; c_session_id=x2le0d45vpovs4ahbfsinh31; cart_returnUrl=37ca6afa5406b465a5594dc92af2fc2667df9b2f%7Ehttp%3A%2F%2Fwww.5lux.com%2Fgood%2Fdetail%2F6779188; cf_ob_info=520:62a7b9935badeb55:LAX; cf_use_ob=0; cityInfo=think%3A%7B%22id%22%3A%221%22%2C%22name%22%3A%22%25E6%25B6%25BF%25E5%25B7%259E%22%2C%22lng%22%3A%22116.0107980218%22%2C%22lat%22%3A%2239.491586132869%22%2C%22domain%22%3A%22zhuozhou%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; clientlanguage=zh_CN; cookie_test=A96TPSu_2BztWwx0d8rKppAP8UfnTeGGV32Hd7GB4AgzA_2BFJyG; cum_mobile=touch; currency=USD; cyg_last_search=1614841755; DB4_mobile=touch; Dc0_city=3%7Chttp%3A%2F%2Fwww.tffang.cn%2F; discuz_2132_lastact=1614776746%09forum.php%09viewthread; discuz_2132_lastvisit=1614773146; discuz_2132_pc_size_c=0; discuz_2132_saltkey=sga3z3MJ; discuz_2132_sid=ee4Lmj; discuz_2132_st_p=0%7C1614776746%7Cfcef1427b2d4a35e34ff8b953abb4771; discuz_2132_viewid=tid_95683; discuz_2132_visitedfid=12; e5b36_lastpos=T635419; e5b36_lastvisit=0%091614758184%09%2Fread.php%3Ftid-635419.html; e5b36_ol_offset=122705; ecology_JSessionId=abcaULQUpyeuE7pGZJ6Fx; ECS_ID=7252e57548ca4a444a7cb413ce7d1147d5eabb41; ecsid=007d9dce7a63560a560a3cd249524aa1e0192165; fangcaiji_ip=61.241.50.63; firstVisitor=1; from_house_id=0; FY3m_2132_home_readfeed=1614805648; FY3m_2132_lastact=1614805648%09home.php%09; FY3m_2132_lastvisit=1614802048; FY3m_2132_saltkey=iShSut7n; FY3m_2132_sid=k33I33; gMS981_2132_forum_lastvisit=D_108_1614772639; gMS981_2132_lastact=1614772639%09forum.php%09forumdisplay; gMS981_2132_lastvisit=1614769039; gMS981_2132_saltkey=gpz8ng08; gMS981_2132_sid=U4x7L5; gMS981_2132_st_t=0%7C1614772639%7Cced87d573c52be5c7a8278849db89b7a; gMS981_2132_visitedfid=108; HIdY_2132_lastvisit=1614752183; HIdY_2132_saltkey=LBrY9Yxp; his_goods_ids=%7B%22type%22%3A%22C%22%2C%22goodsid%22%3A%22568831756165%22%2C%22time%22%3A1614848201%7D%3B; history=0997209386e0f8242bfc802b0da1c7a8bedbb2c6%7E1970547; Hm_lpvt_405ae6cddbee7a6f9e22cd766cc8307c=1614767999; Hm_lvt_405ae6cddbee7a6f9e22cd766cc8307c=1614767999; hmf_search_engine=e30=; hnyHkdu5_2132_lastvisit=1614770766; hnyHkdu5_2132_sessionid=1286369714; home_lang=cn; house=think%3A%5B%225700%22%5D; ieq__Session=1g12qtmq96139a7p83u7vtk6o5; InitSiteID=99247; IPISP=ISP; IPLOC=CN4403; IQsk_2132_lastact=1614798349%09forum.php%09viewthread; IQsk_2132_lastvisit=1614794749; IQsk_2132_saltkey=Wg3A4S1L; IQsk_2132_sid=PA0FJ4; IQsk_2132_st_p=0%7C1614798349%7Cf0420ea78cb72817488662ed37149841; IQsk_2132_viewid=tid_1913310; IQsk_2132_visitedfid=88; IsDefaultLang=1; JaHG_2132_forum_lastvisit=D_64_1614830417; JaHG_2132_lastact=1614830417%09forum.php%09forumdisplay; JaHG_2132_lastvisit=1614750810; JaHG_2132_saltkey=g422LrF2; JaHG_2132_st_p=0%7C1614754410%7C63ea6279beee172ebfdb6c817159dc7d; JaHG_2132_st_t=0%7C1614830417%7C8275103fd7941aea70707aef9c0c14f2; JaHG_2132_viewid=tid_14655; JaHG_2132_visitedfid=64D66; JCN_SESS_ID=46f207b3-a8ca-494c-ac3c-83ffdd254638; jgg__Session=4dn958t6uu4ud5so0o31cvh6gj; jqll_2132_lastvisit=1614762061; jqll_2132_saltkey=tDud1bxi; JSESSIONID=20FBCCF447D5C2F660A58415E2354AB5.node4; kuaiyou_siteid=84a22-o_B1JsVMYJeZqWMBhyEy1Q1Nhiv6JsSxHI; kuxin_history=1304%2C540%7C77079%2C70%7C499%2C656%7C9932%2C442%7C13506%2C2074%7C27692%2C18%7C17262%2C38%7C15235%2C74%7C35139%2C566%7C1915%2C330%7C3947%2C834%7C1239%2C1%7C28640%2C149%7C7843%2C182%7C8937%2C2858; Lang=cn; language=%E4%B8%AD%E6%96%87; laravel_session=eyJpdiI6IkRKNk9udW90aUFsUldZdVwvcUZiY3pRPT0iLCJ2YWx1ZSI6Im5cL1wvVW83WWV4K1hKeW1HRlwveVd1SFJXcWpXSytqWCtOSWdVcnpFWVo0aUw2ODE2SXluNGowZkVMN1RKYkZ6d1EiLCJtYWMiOiJlN2FlMDQ4MGNhZDg0MDBiMzVmMDhmZjU1NWE1NTIzODE2ZTc1OGJmMDdmZTAzMzM0NjcxNWNjYzZlNjBiMGQ1In0%3D; lastfid=0; lastvisit=6934%091614763442%09%2Fsimple%2Findex.php%3Ft506937.html%26; lf___forward__=%2Fbook%2F47433%2Faa4366c306eb6.html; lf_read_log=a%3A2%3A%7Bi%3A417366%3Bs%3A31%3A%22417366%7C87be970dd24ec%7C1614822244%22%3Bi%3A35227%3Bs%3A30%3A%2247433%7Caa4366c306eb6%7C1614851941%22%3B%7D; liketrue=1; lkMq_2132_lastact=1614790175%09forum.php%09viewthread; lkMq_2132_lastvisit=1614786575; lkMq_2132_saltkey=dEEvJe9e; lkMq_2132_sid=GpvvpY; lkMq_2132_viewid=tid_653792; lkMq_2132_visitedfid=52; LORD_2132_home_readfeed=1614835223; LORD_2132_lastact=1614835223%09home.php%09; LORD_2132_lastvisit=1614831623; LORD_2132_saltkey=S3eql52F; LORD_2132_sid=Gsd3rt; MenuType=8; mid=6UgXFp; MO_ID=2d5d2fdc5db8f44063407bd9a4aae6262d6540a3; MyCity=%B9%E3%B0%B2; MyCityBM=%3Cdiv+class%3Dbmdiv%3E%3Cul%3E%3Cli+class%3Dbm%5Fred%3E%D2%BA%BB%AF%C6%F8%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli+class%3Dbm%5Fred%3E%BF%ED%B4%F8%B0%B2%D7%B0%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli%3E%BC%D2%D5%FE%B1%A3%BD%E0%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli+class%3Dbm%5Fred%3E%B3%E8%CE%EF%D2%BD%D4%BA%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli%3E%C9%E3%D3%B0%CF%B4%CF%E0%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli%3E%B4%BF%BE%BB%CB%AE%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli%3E%B5%E7%C4%D4%CE%AC%D0%DE%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli%3E%C6%FB%B3%B5%CE%AC%D0%DE%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3C%2Ful%3E%3C%2Fdiv%3E; MyCityEng=guangan; MyCityLogo=http%3A%2F%2Fwww%2Etijian123%2Ecom%2Fimages%2Flogo%2Egif; MyCityTempID=0; mysid=22eb36939d0ab6ce697bbb9978fd0ad8; ntvV_2132_lastact=1614837907%09forum.php%09viewthread; ntvV_2132_lastvisit=1614834307; ntvV_2132_pc_size_c=0; ntvV_2132_saltkey=YQoNWgOO; ntvV_2132_sid=tuXz4r; oasidcookiekey=cbaa9e99d0d11f7c; ol_offset=147149; page_type=1; php-webapp-srv=c30811168d1ed5a7bde97be699986c65; php-webapp-yixue=0b235e7e2db1495a1bf8703aa97b53cb; PHPSESSID=c543aebde12779bdd099b86cc1f1b2b6; PHPSESSID_USERID=c543aebde12779bdd099b86cc1f1b2b6; PHPSESSION=dfh2a4f1gl7nto5kv7dko1nu40; phpu=1; pjDU_2132_lastact=1614770428%09forum.php%09viewthread; pjDU_2132_lastvisit=1614766828; pjDU_2132_saltkey=jTPT83zt; pjDU_2132_sid=b969U2; pjDU_2132_st_p=0%7C1614770428%7C51a5fbcff13b8422d27c8a2c8757ee28; pjDU_2132_viewid=tid_202906; pjDU_2132_visitedfid=2; PlatVisitCount=aThUOVB6cWRNQkxmOXR5dFo4cXZuQklydWh1Rm1EWTBOR0FjYTlYSFp1RT0=; PNmw_2132_lastvisit=1614756708; PNmw_2132_saltkey=GfmM7ccw; PNmw_2132_st_p=0%7C1614760308%7Cbd2c5682c4bc6664457d052c321312c4; PNmw_2132_viewid=tid_44379; PNmw_2132_visitedfid=59; pre_url=%2fmobile%2fpage3720.html; ProductVisitCount=aThUOVB6cWRNQkxmOXR5dFo4cXZuTW5NVUlkUmFyTTBzbkxuSEZ0MGF4OD0=; pSIK_2132_lastact=1614788347%09plugin.php%09index; pSIK_2132_lastvisit=1614784747; pSIK_2132_saltkey=cnlNEL0n; pSIK_2132_sid=UKHiic; pt=web; PTCMS_history=106%2C163%7C8193%2C0%7C126691%2C397%7C1043%2C395%7C23913%2C143%7C23928%2C1617; Q9eD_2132_atarget=1; Q9eD_2132_forum_lastvisit=D_37_1614819618; Q9eD_2132_lastact=1614819618%09forum.php%09forumdisplay; Q9eD_2132_lastvisit=1614749761; Q9eD_2132_saltkey=DpwRMRPb; Q9eD_2132_sid=R0Iz1s; Q9eD_2132_st_t=0%7C1614819618%7C0137f6848827377a80cec675aa209b2f; Q9eD_2132_visitedfid=37; qgLanguage=1; qgTplID=1; Qyfg_2132_lastvisit=1614758698; Qyfg_2132_saltkey=HHWh974N; Qyfg_2132_st_p=0%7C1614762298%7C79834ac16e0557dbf63cc254f5c93a1d; Qyfg_2132_viewid=tid_22455; Qyfg_2132_visitedfid=52; real_ipd=61.241.50.63; rh8h_2132_home_diymode=1; rh8h_2132_home_readfeed=1614850848; rh8h_2132_lastact=1614855755%09home.php%09space; rh8h_2132_lastvisit=1614757289; rh8h_2132_saltkey=s6I06I6Q; rh8h_2132_st_p=0%7C1614773614%7Cebba89ac746b3bdd6c918ca9ae783dc1; rh8h_2132_viewid=tid_3682698; rh8h_2132_visitedfid=25; route=c69d1ce8406c1ff82ade25e18d3a52f9; scan_code=161482333155059749926314484243; security_leech_key=84; security_session_verify=8d703bae44d7a34b5243bedeabac0a6a; SERVERID=bcd45f0eb62a7411511202512166130c|1614761837|1614761837; session_prefix=00c7a973cf5c640e3d54b22267b14cf1; SESSIONID=bea0de81-7232-44ca-8613-870961a8a035.gKUebf_XvWc9xuJ2ObfFd_YXirc; ShopVisitCount-1=aThUOVB6cWRNQkxmOXR5dFo4cXZuQklydWh1Rm1EWTBOR0FjYTlYSFp1RT0=; shuID%5F335=335; shuID%5F665=665; sign=C1D86D0443DC86A7D39C09EBA48C818D; sitepath=%2F; SiteType=1; SNUID=83F656497377CED235FD73B3733B89BA; startsessionID=f71e8a5a33c8c2749418e9e7afce6251; supe_supe_refresh_articles=0_3851488; supe_supe_refresh_items=0_2773; SVYC_2132_forum_lastvisit=D_4_1614851203; SVYC_2132_lastact=1614851203%09forum.php%09forumdisplay; SVYC_2132_lastvisit=1614847603; SVYC_2132_pc_size_c=0; SVYC_2132_saltkey=G6z6TWwX; SVYC_2132_sid=OAmaSI; SVYC_2132_st_t=0%7C1614851203%7C499d0c013de2c1e7bf041da576cbd696; SVYC_2132_visitedfid=4; t0em_2132_lastact=1614822923%09forum.php%09viewthread; t0em_2132_lastvisit=1614819323; t0em_2132_saltkey=OkRwBK15; t0em_2132_sid=egahua; t0em_2132_st_p=0%7C1614822923%7C15a769484af77ea3454443c4db683cb9; t0em_2132_viewid=tid_245; t0em_2132_visitedfid=573; TcY_sid=WWHLA0; think_template=cyar; timestamp=1614760132000; tp_sid=3529f0d60a6b13f6; U7lw_2132_lastact=1614784771%09forum.php%09viewthread; U7lw_2132_lastvisit=1614781171; U7lw_2132_saltkey=yJrnCqVB; U7lw_2132_sid=f3b77W; U7lw_2132_st_p=0%7C1614784771%7C91219823dcc2001f88f3fde3556e3ce5; U7lw_2132_viewid=tid_10343; U7lw_2132_visitedfid=8; USR=fnibzicu%090%091614809694%09http%3A%2F%2Ffanyong.yahui.cc%2Fa%2F3163.html; uuid=rBEAZ2BAhZABWlCwAzkHAg==; vbIV_2132_lastvisit=1614757344; vbIV_2132_saltkey=VZI9FfqI; vds=gaSzgvkrpWZrXhqqgqSpSZpTKYqvqhSfXCZhMqvhHqJpqWJhkvJzkvvBZWVT; VgpA_2132_lastact=1614779453%09forum.php%09viewthread; VgpA_2132_lastvisit=1614775853; VgpA_2132_saltkey=l1zbzoKw; VgpA_2132_st_p=0%7C1614779453%7C4db71eb0f321737d14f1a15f1d0d32fb; VgpA_2132_viewid=tid_139324; VgpA_2132_visitedfid=2; VIDEO_DEBUG=off; vierge%5FShops=NmUserName=20210304074855KRFF; view_log=%5B%2215085%22%5D; visitor_tag=746337603f5f295a476; visits=1; VmU0_2132_lastact=1614837360%09views.php%09; VmU0_2132_lastvisit=1614833760; VmU0_2132_saltkey=M3j88dn3; VmU0_2132_sid=W556rH; waf_cookie=4f830f55-0dac-45d7bb2f2e6cc92d5180c637dfb99a34112d; well_sid=trvptss5kfl4aglq4voq4sunrk; WPgS_2132_lastvisit=1614758672; WPgS_2132_saltkey=KD35735I; WPgS_2132_st_p=0%7C1614762272%7Cd5334e073ec63cac10bfb9b3efe63e19; WPgS_2132_viewid=tid_9023; WPgS_2132_visitedfid=53; WUserID=15902381317794; X_CACHE_KEY=35ef69ca941d6562f0dc2a4a6e6d2d66; xiaobing360_home_think_template=youhome; xRIM_2132_lastact=1614855312%09forum.php%09viewthread; xRIM_2132_lastvisit=1614851712; xRIM_2132_saltkey=M4bj0SDJ; xRIM_2132_sid=eiHz9o; XSRF-TOKEN=eyJpdiI6Im1UcUNhZTZocm5OR1VvSXpCdlRBckE9PSIsInZhbHVlIjoiM0x5YlhabmdCMDVvN3ZibngzVHJPaVVZa3F2OVZDblRkY2RMTFFQd2Uxc2NZVUI1VUo1N3Z3R2tobkRzM3A5RyIsIm1hYyI6IjkyYzg0NDU3Y2JmMTA4YjY4MjFhZTA5ZGQ4NmYwOWUzYzE3ZTE3NDlkOTJjODkzNTJmNDE2OWRjZGE5OTNmZjIifQ%3D%3D; YII_CSRF_TOKEN=aad033de8b80c062bca19494be9fb4542107c430s%3A40%3A%22e18c4b392c72ee90a6c8795fea8639338acd00d5%22%3B; YP_ID=773f2db53acef1462cc1f1ba57a86fa2be2bdb6f; yunsuo_session_verify=0dc428f0be021b883de494354086b91e; yz_site=isSite; ZDEDebuggerPresent="php,phtml,php3"; zhangID%5F335=396337; zhangID%5F665=10310; zhangName%5F335=%B5%DA200%D5%C2+%BE%D6%A3%A8%D6%D0%A3%A9; zhangName%5F665=%BA%F3%BC%C7; zhangTime%5F335=2021%2D03%2D04+07%3A27%3A30; zhangTime%5F665=2021%2D03%2D04+01%3A51%3A32',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001092s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/dsn.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/dsn.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:22:01+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.027432s] [吞吐率：36.45req/s] [内存消耗：2,686.84kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000787s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000187s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '70352f31-81bf-487a-a0f1-f610a18d83ae',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001177s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:22:15+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.020738s] [吞吐率：48.22req/s] [内存消耗：2,687.09kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000700s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '082bcbab-16ed-4efc-9023-4245e29721bf',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001108s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:24:02+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.132811s] [吞吐率：7.53req/s] [内存消耗：2,688.53kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000768s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000183s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'd62143b5-57a5-4a8b-b5e8-0d8e2ae074af',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001084s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:24:27+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.020794s] [吞吐率：48.09req/s] [内存消耗：2,687.77kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000769s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000187s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '6dcdb243-dcd4-4c85-a0d9-2e37d9974254',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001096s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:24:44+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.021608s] [吞吐率：46.28req/s] [内存消耗：2,687.77kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000761s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000184s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'bb2207ab-4291-42db-8e9d-6209ac356703',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001296s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:27:05+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.020659s] [吞吐率：48.41req/s] [内存消耗：2,687.73kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000740s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '43523bc2-ad34-431d-a85c-7349856da345',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001085s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:27:42+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.020541s] [吞吐率：48.68req/s] [内存消耗：2,687.73kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000730s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000183s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '008e39ad-f447-4a3e-8979-90f77585dc32',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001091s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:27:56+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.095900s] [吞吐率：10.43req/s] [内存消耗：2,687.99kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000708s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000181s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '78513593-18de-4fb1-a6f2-6967921dccce',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001077s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:28:40+08:00 ] 219.134.115.163 GET dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.101669s] [吞吐率：9.84req/s] [内存消耗：2,687.99kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000665s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000187s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'b5de1b93-9613-40f8-bc52-4c2c1c102069',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001188s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:30:15+08:00 ] 219.134.115.163 POST dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.102637s] [吞吐率：9.74req/s] [内存消耗：2,687.56kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000724s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000183s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'ec883eff-b8be-4812-8e54-6f028161058e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001087s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:30:17+08:00 ] 219.134.115.163 POST dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.150867s] [吞吐率：6.63req/s] [内存消耗：2,687.56kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000957s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000201s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '35b73382-0a33-4006-b736-9a1c9b581013',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001100s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:32:12+08:00 ] 219.134.115.163 POST dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.023728s] [吞吐率：42.14req/s] [内存消耗：2,686.41kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003034s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000198s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'a4461cb3-1d20-401a-ac56-a1ce79164e36',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001149s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:32:30+08:00 ] 219.134.115.163 POST dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.021436s] [吞吐率：46.65req/s] [内存消耗：2,687.01kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000736s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000189s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'bea82d04-5fb9-49c4-a8e4-8c22529e3607',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001118s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:32:49+08:00 ] 219.134.115.163 POST dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.094967s] [吞吐率：10.53req/s] [内存消耗：2,687.56kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000731s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000188s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '00435516-3c22-43ea-acf7-8df07e7f7fdf',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001119s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:32:52+08:00 ] 219.134.115.163 POST dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.101366s] [吞吐率：9.87req/s] [内存消耗：2,687.56kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000767s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000188s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'ad40f804-19dc-4aba-95ab-ef653da3c71e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001135s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:34:38+08:00 ] 219.134.115.163 POST dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.103974s] [吞吐率：9.62req/s] [内存消耗：2,688.29kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000741s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000191s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => '9475e7e5-8ec4-4e0e-8166-8a732cfe72aa',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001125s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:44:59+08:00 ] 219.134.115.163 POST dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.173704s] [吞吐率：5.76req/s] [内存消耗：2,687.56kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000709s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000197s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'da3518d1-fa43-44a3-bddd-0cf0b599ff68',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001095s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T19:45:08+08:00 ] 219.134.115.163 POST dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.092846s] [吞吐率：10.77req/s] [内存消耗：2,687.31kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000843s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'e98a6f9a-4cb8-4c77-b854-21d85da4cf46',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001090s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-04T23:06:53+08:00 ] 219.134.115.163 POST dsn.shalage.top/api/personal/sign?method=bm.elife.recharge.mobile.getItemInfo&access_token=0d16f87fd744478aa079216e794c10a5&v=1.1&mobileNo=17688866068&rechargeAmount=5
+[运行时间：0.096493s] [吞吐率：10.36req/s] [内存消耗：2,687.31kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000704s ]
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000182s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dsn.shalage.top',
+  'postman-token' => 'cc2170b7-4817-4eba-8299-5556d645c14d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'method' => 'bm.elife.recharge.mobile.getItemInfo',
+  'access_token' => '0d16f87fd744478aa079216e794c10a5',
+  'v' => '1.1',
+  'mobileNo' => '17688866068',
+  'rechargeAmount' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/dsn.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001086s ]
+[ info ] [ RUN ] app\api\controller\personal->sign[ /www/wwwroot/dsn.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ LOG ] INIT File

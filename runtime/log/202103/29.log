@@ -1,0 +1,3472 @@
+---------------------------------------------------------------
+[ 2021-03-29T00:00:54+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.410750s] [吞吐率：2.43req/s] [内存消耗：6,579.09kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003755s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006005s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006032s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000300s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001824s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T00:01:01+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.370966s] [吞吐率：2.70req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006641s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006667s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000283s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001794s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T00:30:55+08:00 ] 101.226.103.24 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.444844s] [吞吐率：2.25req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006391s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006412s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000340s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001740s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T00:31:01+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.385316s] [吞吐率：2.60req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003780s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002560s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002580s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.004011s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001576s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T00:44:46+08:00 ] 103.3.138.150 POST aldedar.shalage.top//api/index/index
+[运行时间：0.073149s] [吞吐率：13.67req/s] [内存消耗：3,930.24kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005985s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006011s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000246s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001468s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T00:45:14+08:00 ] 103.3.138.150 POST aldedar.shalage.top//api/index/jieguo
+[运行时间：0.071237s] [吞吐率：14.04req/s] [内存消耗：4,014.25kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006468s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006491s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000246s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jieguo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001426s ]
+[ info ] [ RUN ] app\api\controller\Index->jieguo[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T01:00:56+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.456815s] [吞吐率：2.19req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002696s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002718s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000239s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001810s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T01:01:02+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.453739s] [吞吐率：2.20req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002910s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002930s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000415s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001877s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T01:31:03+08:00 ] 101.226.103.24 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.432575s] [吞吐率：2.31req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006538s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006560s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001649s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T02:00:57+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.445674s] [吞吐率：2.24req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002742s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002771s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000346s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001736s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T02:25:00+08:00 ] 103.3.138.150 POST aldedar.shalage.top//api/index/index
+[运行时间：0.079451s] [吞吐率：12.59req/s] [内存消耗：3,930.24kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005967s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005993s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000245s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004590s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T02:25:22+08:00 ] 103.3.138.150 POST aldedar.shalage.top//api/index/jieguo
+[运行时间：0.076372s] [吞吐率：13.09req/s] [内存消耗：4,014.25kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005719s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005755s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000413s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jieguo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001560s ]
+[ info ] [ RUN ] app\api\controller\Index->jieguo[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T02:30:23+08:00 ] 103.3.138.150 GET aldedar.shalage.top//api/index/agreement_xy?member_id=78
+[运行时间：0.064469s] [吞吐率：15.51req/s] [内存消耗：3,030.00kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006445s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006513s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000246s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'agreement_xy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => '78',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004947s ]
+[ info ] [ RUN ] app\api\controller\Index->agreement_xy[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T02:31:03+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.465198s] [吞吐率：2.15req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002760s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002817s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000245s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.005183s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T02:31:42+08:00 ] 103.3.138.150 GET aldedar.shalage.top//api/index/hf
+[运行时间：0.073778s] [吞吐率：13.55req/s] [内存消耗：3,932.17kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002594s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002615s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000256s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'hf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001463s ]
+[ info ] [ RUN ] app\api\controller\Index->hf[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T03:22:33+08:00 ] 128.14.133.58 GET 45.253.65.89/
+[运行时间：0.061530s] [吞吐率：16.25req/s] [内存消耗：3,057.01kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006473s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006498s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000242s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'host' => '45.253.65.89',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001545s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T04:36:16+08:00 ] 185.193.91.250 GET 45.253.65.89/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession
+[运行时间：0.047943s] [吞吐率：20.86req/s] [内存消耗：2,334.63kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002691s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002712s ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]is_file(): open_basedir restriction in effect. File(/www/wwwroot/aldedar.shalage.top/thinkphp/lang//../../../..//////////dev/cmdb/sslvpn_websession.php) is not within the allowed path(s): (/www/wwwroot/aldedar.shalage.top/:/tmp/)[/www/wwwroot/aldedar.shalage.top/thinkphp/library/think/Lang.php:108]
+---------------------------------------------------------------
+[ 2021-03-29T05:00:57+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.460527s] [吞吐率：2.17req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006372s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006400s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000290s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001736s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T05:31:04+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.476199s] [吞吐率：2.10req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002658s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002680s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000259s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001679s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T06:04:18+08:00 ] 185.193.91.250 GET 45.253.65.89/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession
+[运行时间：0.049311s] [吞吐率：20.28req/s] [内存消耗：2,334.63kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002698s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002719s ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]is_file(): open_basedir restriction in effect. File(/www/wwwroot/aldedar.shalage.top/thinkphp/lang//../../../..//////////dev/cmdb/sslvpn_websession.php) is not within the allowed path(s): (/www/wwwroot/aldedar.shalage.top/:/tmp/)[/www/wwwroot/aldedar.shalage.top/thinkphp/library/think/Lang.php:108]
+---------------------------------------------------------------
+[ 2021-03-29T06:55:19+08:00 ] 185.193.91.250 GET 45.253.65.89/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession
+[运行时间：0.050058s] [吞吐率：19.98req/s] [内存消耗：2,334.63kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002790s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002813s ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]is_file(): open_basedir restriction in effect. File(/www/wwwroot/aldedar.shalage.top/thinkphp/lang//../../../..//////////dev/cmdb/sslvpn_websession.php) is not within the allowed path(s): (/www/wwwroot/aldedar.shalage.top/:/tmp/)[/www/wwwroot/aldedar.shalage.top/thinkphp/library/think/Lang.php:108]
+---------------------------------------------------------------
+[ 2021-03-29T08:00:58+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.458304s] [吞吐率：2.18req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002602s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002624s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000239s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001798s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T08:24:48+08:00 ] 45.146.165.157 POST 45.253.65.89:443/api/jsonws/invoke
+[运行时间：0.057807s] [吞吐率：17.30req/s] [内存消耗：2,548.27kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006405s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006434s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000363s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'jsonws',
+    2 => 'invoke',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001594s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:24:51+08:00 ] 45.146.165.157 GET 45.253.65.89:443/wp-content/plugins/wp-file-manager/readme.txt
+[运行时间：0.049476s] [吞吐率：20.21req/s] [内存消耗：2,372.59kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000076s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002632s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002653s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003940s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-content',
+    1 => 'plugins',
+    2 => 'wp-file-manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:24:51+08:00 ] 45.146.165.157 POST 45.253.65.89:443/Autodiscover/Autodiscover.xml
+[运行时间：0.044864s] [吞吐率：22.29req/s] [内存消耗：2,375.09kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002523s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002543s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000236s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Autodiscover',
+    1 => 'Autodiscover.xml',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'content-type' => 'application/xml',
+  'content-length' => '314',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:24:54+08:00 ] 45.146.165.157 GET 45.253.65.89:443/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21
+[运行时间：0.051792s] [吞吐率：19.31req/s] [内存消耗：2,388.52kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002492s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002515s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.006113s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'HelloThinkPHP21',
+    ),
+  ),
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:00+08:00 ] 45.146.165.157 GET 45.253.65.89:443/?XDEBUG_SESSION_START=phpstorm
+[运行时间：0.065801s] [吞吐率：15.20req/s] [内存消耗：3,057.91kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006506s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006533s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000243s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => 'phpstorm',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001548s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:04+08:00 ] 45.146.165.157 POST 45.253.65.89:443/mifs/.;/services/LogService
+[运行时间：0.049745s] [吞吐率：20.10req/s] [内存消耗：2,375.08kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002640s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002664s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003467s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mifs',
+    1 => '.;',
+    2 => 'services',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://45.253.65.89:443',
+  'content-type' => 'x-application/hessian',
+  'content-length' => '6',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:10+08:00 ] 45.146.165.157 POST 45.253.65.89:443/api/jsonws/invoke
+[运行时间：0.055911s] [吞吐率：17.89req/s] [内存消耗：2,548.27kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002781s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002804s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000302s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'jsonws',
+    2 => 'invoke',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001528s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:11+08:00 ] 45.146.165.157 POST 45.253.65.89:443/mifs/.;/services/LogService
+[运行时间：0.048487s] [吞吐率：20.62req/s] [内存消耗：2,375.08kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003713s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002628s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002648s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000273s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mifs',
+    1 => '.;',
+    2 => 'services',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://45.253.65.89:443',
+  'content-type' => 'x-application/hessian',
+  'content-length' => '6',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:13+08:00 ] 45.146.165.157 GET 45.253.65.89:443/wp-content/plugins/wp-file-manager/readme.txt
+[运行时间：0.065725s] [吞吐率：15.21req/s] [内存消耗：2,372.59kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007762s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007792s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000413s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-content',
+    1 => 'plugins',
+    2 => 'wp-file-manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:13+08:00 ] 45.146.165.157 GET 45.253.65.89:443/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21
+[运行时间：0.063670s] [吞吐率：15.71req/s] [内存消耗：2,388.52kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007762s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007792s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000413s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'HelloThinkPHP21',
+    ),
+  ),
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:15+08:00 ] 45.146.165.157 POST 45.253.65.89:443/Autodiscover/Autodiscover.xml
+[运行时间：0.052538s] [吞吐率：19.03req/s] [内存消耗：2,375.09kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003103s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003125s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000469s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Autodiscover',
+    1 => 'Autodiscover.xml',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'content-type' => 'application/xml',
+  'content-length' => '314',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:17+08:00 ] 45.146.165.157 GET 45.253.65.89:443/?XDEBUG_SESSION_START=phpstorm
+[运行时间：0.062837s] [吞吐率：15.91req/s] [内存消耗：3,057.91kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006742s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006767s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000324s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => 'phpstorm',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001612s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:19+08:00 ] 45.146.165.157 GET 45.253.65.89:443/console/
+[运行时间：0.050631s] [吞吐率：19.75req/s] [内存消耗：2,372.25kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000070s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007042s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007064s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000292s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:19+08:00 ] 45.146.165.157 GET 45.253.65.89:443/_ignition/execute-solution
+[运行时间：0.049838s] [吞吐率：20.06req/s] [内存消耗：2,372.66kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002853s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002880s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000325s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '_ignition',
+    1 => 'execute-solution',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:40+08:00 ] 45.146.165.157 POST 45.253.65.89:443/api/jsonws/invoke
+[运行时间：0.056039s] [吞吐率：17.84req/s] [内存消耗：2,548.27kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006243s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006273s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000259s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'jsonws',
+    2 => 'invoke',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002632s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:41+08:00 ] 45.146.165.157 GET 45.253.65.89:443/_ignition/execute-solution
+[运行时间：0.049379s] [吞吐率：20.25req/s] [内存消耗：2,372.66kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002681s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002730s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000238s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '_ignition',
+    1 => 'execute-solution',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:45+08:00 ] 45.146.165.157 GET 45.253.65.89:443/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21
+[运行时间：0.050006s] [吞吐率：20.00req/s] [内存消耗：2,388.52kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003068s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003093s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000392s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'HelloThinkPHP21',
+    ),
+  ),
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:46+08:00 ] 45.146.165.157 GET 45.253.65.89:443/?XDEBUG_SESSION_START=phpstorm
+[运行时间：0.061812s] [吞吐率：16.18req/s] [内存消耗：3,057.91kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002608s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002629s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003856s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => 'phpstorm',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001483s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:47+08:00 ] 45.146.165.157 GET 45.253.65.89:443/wp-content/plugins/wp-file-manager/readme.txt
+[运行时间：0.048846s] [吞吐率：20.47req/s] [内存消耗：2,372.59kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002612s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002633s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000292s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-content',
+    1 => 'plugins',
+    2 => 'wp-file-manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:48+08:00 ] 45.146.165.157 POST 45.253.65.89:443/Autodiscover/Autodiscover.xml
+[运行时间：0.049605s] [吞吐率：20.16req/s] [内存消耗：2,375.09kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005546s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005569s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000245s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Autodiscover',
+    1 => 'Autodiscover.xml',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'content-type' => 'application/xml',
+  'content-length' => '314',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:49+08:00 ] 45.146.165.157 GET 45.253.65.89:443/console/
+[运行时间：0.046503s] [吞吐率：21.50req/s] [内存消耗：2,372.25kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002591s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002612s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000251s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:25:50+08:00 ] 45.146.165.157 POST 45.253.65.89:443/mifs/.;/services/LogService
+[运行时间：0.049949s] [吞吐率：20.02req/s] [内存消耗：2,375.08kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002813s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002838s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mifs',
+    1 => '.;',
+    2 => 'services',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://45.253.65.89:443',
+  'content-type' => 'x-application/hessian',
+  'content-length' => '6',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '45.253.65.89:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T08:31:04+08:00 ] 101.226.103.24 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.443563s] [吞吐率：2.25req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002655s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002676s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000264s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001696s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T10:57:14+08:00 ] 103.3.138.150 POST aldedar.shalage.top//api/index/index
+[运行时间：0.075634s] [吞吐率：13.22req/s] [内存消耗：3,930.24kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002735s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002757s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000250s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001569s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T10:57:24+08:00 ] 103.3.138.150 POST aldedar.shalage.top//api/index/jieguo
+[运行时间：0.073278s] [吞吐率：13.65req/s] [内存消耗：4,014.25kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002849s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002870s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000268s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jieguo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001574s ]
+[ info ] [ RUN ] app\api\controller\Index->jieguo[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T11:00:59+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.438088s] [吞吐率：2.28req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005749s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005770s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000279s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002117s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T03:05:02+00:00 ] 103.3.138.150 GET aldedar.shalage.top//api/personal/getInfo?member_id=78
+[运行时间：0.079241s] [吞吐率：12.62req/s] [内存消耗：4,010.73kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003039s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003060s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000266s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => '78',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001442s ]
+[ info ] [ RUN ] app\api\controller\personal->getInfo[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T11:10:18+08:00 ] 74.120.14.53 GET 45.253.65.89:443/
+[运行时间：0.056475s] [吞吐率：17.71req/s] [内存消耗：3,055.81kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002693s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002715s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000314s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001498s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T11:10:19+08:00 ] 74.120.14.53 GET 45.253.65.89/
+[运行时间：0.068142s] [吞吐率：14.68req/s] [内存消耗：3,056.76kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006671s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006698s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000248s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => '45.253.65.89',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001514s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T11:31:04+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.460052s] [吞吐率：2.17req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006486s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006513s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000247s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001664s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T12:08:39+08:00 ] 172.105.234.247 GET 45.253.65.89:443/
+[运行时间：0.061639s] [吞吐率：16.22req/s] [内存消耗：3,056.84kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002788s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002814s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000285s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005424s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T12:34:34+08:00 ] 65.49.20.66 GET 45.253.65.89/
+[运行时间：0.056331s] [吞吐率：17.75req/s] [内存消耗：3,055.79kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002641s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002666s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '45.253.65.89',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001486s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T17:00:59+08:00 ] 101.226.103.24 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.448477s] [吞吐率：2.23req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006271s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006303s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000249s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001768s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T17:31:05+08:00 ] 101.226.103.24 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.457268s] [吞吐率：2.19req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002692s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002714s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000246s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.005487s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T18:57:04+08:00 ] 103.3.138.150 GET aldedar.shalage.top/admins.php/notice?addtabs=1
+[运行时间：0.092551s] [吞吐率：10.80req/s] [内存消耗：4,339.90kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006401s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006426s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000237s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001497s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /www/wwwroot/aldedar.shalage.top/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/view/notice/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000188s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T18:57:05+08:00 ] 103.3.138.150 GET aldedar.shalage.top/admins.php/ajax/lang?callback=define&controllername=notice&lang=zh-cn&v=1617015424&v=1617015424
+[运行时间：0.068208s] [吞吐率：14.66req/s] [内存消耗：3,508.55kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006476s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006500s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000275s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'notice',
+  'lang' => 'zh-cn',
+  'v' => '1617015424',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001955s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/aldedar.shalage.top/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000180s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T18:57:07+08:00 ] 103.3.138.150 GET aldedar.shalage.top/admins.php/notice/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1617015461332
+[运行时间：0.099367s] [吞吐率：10.06req/s] [内存消耗：4,418.98kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006368s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006393s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000346s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1617015461332',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001517s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /www/wwwroot/aldedar.shalage.top/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T18:57:24+08:00 ] 103.3.138.150 GET aldedar.shalage.top/admins.php/notice/add?dialog=1
+[运行时间：0.079724s] [吞吐率：12.54req/s] [内存消耗：4,361.13kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002548s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002575s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000238s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001498s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /www/wwwroot/aldedar.shalage.top/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/view/notice/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000136s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T18:57:26+08:00 ] 103.3.138.150 GET aldedar.shalage.top/admins.php/ajax/lang?callback=define&controllername=notice&lang=zh-cn&v=1617015444&v=1617015444
+[运行时间：0.074805s] [吞吐率：13.37req/s] [内存消耗：3,508.55kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007930s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007959s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000253s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'notice',
+  'lang' => 'zh-cn',
+  'v' => '1617015444',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002205s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/aldedar.shalage.top/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000173s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T18:57:36+08:00 ] 103.3.138.150 POST aldedar.shalage.top/admins.php/ajax/upload
+[运行时间：0.110263s] [吞吐率：9.07req/s] [内存消耗：4,608.21kb] [文件加载：145]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002524s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002546s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000243s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'https://aldedar.shalage.top',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryEtQK3XqAcnsyOoKA',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'content-length' => '202506',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005278s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ /www/wwwroot/aldedar.shalage.top/application/admin/controller/Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.012177s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T18:57:37+08:00 ] 103.3.138.150 POST aldedar.shalage.top/admins.php/notice/add?dialog=1
+[运行时间：0.093498s] [吞吐率：10.70req/s] [内存消耗：4,342.81kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002581s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002602s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000299s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'https://aldedar.shalage.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'content-length' => '75',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'row' => 
+  array (
+    'image' => '/uploads/20210329/4e7b34679c0f8e898b5da18a28d5e1dd.png',
+  ),
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001543s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /www/wwwroot/aldedar.shalage.top/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.005747s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T18:57:38+08:00 ] 103.3.138.150 GET aldedar.shalage.top/admins.php/notice/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1617015461333
+[运行时间：0.095832s] [吞吐率：10.43req/s] [内存消耗：4,419.14kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002675s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002698s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1617015461333',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001555s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /www/wwwroot/aldedar.shalage.top/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000152s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T18:57:46+08:00 ] 103.3.138.150 POST aldedar.shalage.top//api/index/index
+[运行时间：0.073530s] [吞吐率：13.60req/s] [内存消耗：3,930.77kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006466s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006487s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000288s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001522s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:10:01+08:00 ] 103.3.138.150 POST aldedar.shalage.top/admins.php/notice/del
+[运行时间：0.095762s] [吞吐率：10.44req/s] [内存消耗：4,342.14kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006569s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006592s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000240s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'https://aldedar.shalage.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'content-length' => '24',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'del',
+  'ids' => '5',
+  'params' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001394s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ RUN ] app\common\controller\Backend->del[ /www/wwwroot/aldedar.shalage.top/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004924s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:10:01+08:00 ] 103.3.138.150 GET aldedar.shalage.top/admins.php/notice/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1617015461334
+[运行时间：0.088405s] [吞吐率：11.31req/s] [内存消耗：4,418.98kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002538s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002559s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000278s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1617015461334',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001516s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /www/wwwroot/aldedar.shalage.top/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000138s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:10:02+08:00 ] 103.3.138.150 GET aldedar.shalage.top/admins.php/notice/add?dialog=1
+[运行时间：0.087847s] [吞吐率：11.38req/s] [内存消耗：4,361.13kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002687s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002707s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000249s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001818s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /www/wwwroot/aldedar.shalage.top/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/view/notice/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:10:03+08:00 ] 103.3.138.150 GET aldedar.shalage.top/admins.php/ajax/lang?callback=define&controllername=notice&lang=zh-cn&v=1617016202&v=1617016202
+[运行时间：0.069367s] [吞吐率：14.42req/s] [内存消耗：3,508.55kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006417s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006439s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000235s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'notice',
+  'lang' => 'zh-cn',
+  'v' => '1617016202',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001848s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/aldedar.shalage.top/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000291s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:10:12+08:00 ] 103.3.138.150 POST aldedar.shalage.top/admins.php/ajax/upload
+[运行时间：0.101417s] [吞吐率：9.86req/s] [内存消耗：4,608.21kb] [文件加载：145]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006453s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006475s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000314s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'https://aldedar.shalage.top',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryTReMtuHDkZrxYjTv',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'content-length' => '212548',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001442s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ /www/wwwroot/aldedar.shalage.top/application/admin/controller/Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.008324s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:10:13+08:00 ] 103.3.138.150 POST aldedar.shalage.top/admins.php/notice/add?dialog=1
+[运行时间：0.095771s] [吞吐率：10.44req/s] [内存消耗：4,342.81kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006370s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006391s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000238s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'https://aldedar.shalage.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'content-length' => '75',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'row' => 
+  array (
+    'image' => '/uploads/20210329/eb0396fe2a3a6a57a7a47f6e29919e1a.png',
+  ),
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001830s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /www/wwwroot/aldedar.shalage.top/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003882s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:10:13+08:00 ] 103.3.138.150 GET aldedar.shalage.top/admins.php/notice/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1617015461335
+[运行时间：0.098135s] [吞吐率：10.19req/s] [内存消耗：4,419.14kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006623s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006654s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001234s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tdc6vbopo96h73mq7jkvluk5uk; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1617015461335',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001487s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/admin/lang/zh-cn/notice.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /www/wwwroot/aldedar.shalage.top/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000141s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:10:18+08:00 ] 103.3.138.150 POST aldedar.shalage.top//api/index/jieguo
+[运行时间：0.082452s] [吞吐率：12.13req/s] [内存消耗：4,014.77kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006523s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006546s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000253s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jieguo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001598s ]
+[ info ] [ RUN ] app\api\controller\Index->jieguo[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T11:10:29+00:00 ] 103.3.138.150 GET aldedar.shalage.top//api/personal/getInfo?member_id=78
+[运行时间：0.081701s] [吞吐率：12.24req/s] [内存消耗：4,010.73kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006655s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006681s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000286s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'personal',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'member_id' => '78',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004954s ]
+[ info ] [ RUN ] app\api\controller\personal->getInfo[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Personal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:10:43+08:00 ] 103.3.138.150 POST aldedar.shalage.top//api/index/index
+[运行时间：0.077255s] [吞吐率：12.94req/s] [内存消耗：3,930.77kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004621s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004644s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000294s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001556s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:10:46+08:00 ] 103.3.138.150 POST aldedar.shalage.top/api/index/login
+[运行时间：0.210622s] [吞吐率：4.75req/s] [内存消耗：3,943.31kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002523s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002545s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.004191s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa3704686d395d189/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x18000239) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '231',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'aldedar.shalage.top',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '-',
+  'avatar' => 'https://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83ep5PaLtgLhcgUu2icuUJtEfCpQ7ETqpSYHGwjDhd62pER2naQXXsXhCCUEfwTiaibxDkTOgTXibVgtqTA/132',
+  'gender' => 1,
+  'code' => '061R1g0w3GiQ5W2rwV0w3D3I6Z2R1g03',
+  'ids' => 'undefined',
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001433s ]
+[ info ] [ RUN ] app\api\controller\Index->login[ /www/wwwroot/aldedar.shalage.top/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:31:15+08:00 ] 193.118.53.202 GET 45.253.65.89/
+[运行时间：0.061936s] [吞吐率：16.15req/s] [内存消耗：3,057.01kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006388s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006413s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000416s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'host' => '45.253.65.89',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001538s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T19:59:36+08:00 ] 180.149.125.166 GET 45.253.65.89/
+[运行时间：0.060533s] [吞吐率：16.52req/s] [内存消耗：3,056.95kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002601s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002624s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000272s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'host' => '45.253.65.89',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001437s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T23:00:59+08:00 ] 101.226.103.16 POST aldedar.shalage.top/addons/wechat/index/notify_hf
+[运行时间：0.502801s] [吞吐率：1.99req/s] [内存消耗：6,579.10kb] [文件加载：267]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003674s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002670s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002691s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000260s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'aldedar.shalage.top',
+  'content-length' => '757',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'wechat',
+  'controller' => 'index',
+  'action' => 'notify_hf',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/aldedar.shalage.top/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001696s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ notify ] <xml><appid><![CDATA[wxa3704686d395d189]]></appid>
+<bank_type><![CDATA[OTHERS]]></bank_type>
+<cash_fee><![CDATA[2]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1600262687]]></mch_id>
+<nonce_str><![CDATA[6060a024dd2aa]]></nonce_str>
+<openid><![CDATA[oGCLw4n2SZWVlo3Wl_6GxdZDtp6k]]></openid>
+<out_trade_no><![CDATA[962447186807]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[2FEED3A7B6B178D281B1289AF83D9C50]]></sign>
+<time_end><![CDATA[20210328232727]]></time_end>
+<total_fee>2</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000992202103281982260066]]></transaction_id>
+</xml>
+---------------------------------------------------------------
+[ 2021-03-29T23:07:05+08:00 ] 193.118.53.202 GET 45.253.65.89/
+[运行时间：0.064082s] [吞吐率：15.60req/s] [内存消耗：3,057.01kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006518s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006550s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000243s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'host' => '45.253.65.89',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001654s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T23:30:57+08:00 ] 185.193.91.250 GET 45.253.65.89/vpn/../vpns/cfg/smb.conf
+[运行时间：0.049799s] [吞吐率：20.08req/s] [内存消耗：2,371.16kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006251s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006275s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000277s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'vpns',
+    1 => 'cfg',
+    2 => 'smb.conf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => '45.253.65.89',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T23:36:44+08:00 ] 185.233.186.108 GET 45.253.65.89:443/
+[运行时间：0.062908s] [吞吐率：15.90req/s] [内存消耗：3,056.05kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002680s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002704s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000281s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '45.253.65.89:443',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001649s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-29T23:55:03+08:00 ] 180.149.125.166 GET 45.253.65.89/
+[运行时间：0.066524s] [吞吐率：15.03req/s] [内存消耗：3,056.95kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006642s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006665s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000277s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'host' => '45.253.65.89',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001593s ]
+[ info ] [ LANG ] /www/wwwroot/aldedar.shalage.top/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/aldedar.shalage.top/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/aldedar.shalage.top/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://xin.bwkoudai.com/Wanghei/example_two -->
+<html lang="en" style="font-size: 100px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>样例报告</title>
+    <link href="/static/files/xiangqing.css" rel="stylesheet">
+    <link href="/static/files/swiper.min.css" rel="stylesheet">
+    <script src="/static/files/hm.js"></script><script src="/static/files/jquery-2.0.3.min.js"></script>
+    <script src="/static/files/swiper.jquery.min.js"></script>
+    <!--    <script src="https://daikuan-static.kanongyun.com/Public/static/wangheis/js/lib/vue.min.js"></script>-->
+    <!--    <script src="https://daikuan-static.kanongyun.com/Public/static/wangheis/js/axios.min.js"></script>-->
+    <!--    <script src="https://daikuan-static.kanongyun.com/Public/static/wangheis/js/lib/layer_mobile/layer.js"></script>-->
+    <!--    <script src="https://daikuan-static.kanongyun.com/Public/static/wangheis/js/html2canvas.min.js?v=65682a2"></script>-->
+    <script src="/static/files/echarts.min.js"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?3c9700289866ebe56444d627bbcc7104";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <style type="text/css">
+        .layui-m-layershade {
+            background-color: rgb(156, 156, 156);
+            pointer-events: auto;
+        }
+
+        .layui-m-layer2 .layui-m-layerchild {
+            color: #fff;
+        }
+        .layui-m-layerchild p{
+            line-height: 22px;
+        }
+
+        .recruit{
+            background-color: #ff5e52;
+            margin: 0.2rem auto 0 auto;
+            font-size: 0.3rem;
+            line-height:0.8rem;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        (function(doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+            var recalc = function() {
+                var width = docEl.clientWidth;
+                width = width > 750 ? 750 : width;
+                docEl.style.fontSize = 100 * (width / 750) + 'px';
+            };
+            recalc();
+// 监听缩放
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+        })(document, window);
+    </script>
+</head>
+<body style="">
+<!--<img style="margin: 0 auto; width:100%;max-width: 720px;display: block" src="/Public/static/wangheis/images/example_two.png?202105071547">-->
+<div id="app" class="wrap" style="opacity: 1; background: rgb(247, 247, 247);"><div class="loading-bg" style="display: none;"></div> <div class="xin-top"><p style="text-align: center;font-size: 20px;">您的评分指数</p><span class="xin-top-fen">
+        14
+   </span></div>
+    <div class="xin-explain box-c">
+        <div class="bottominfo clearfix">
+            <div class="bottominfo-flex">
+                <div>评估</div>
+                <span>2020-09-24 16:12</span></div>
+            <div class="bottominfo-flex">
+                <div>过期</div>
+                <span>2020-10-01 16:12</span></div>
+        </div>
+        <div class="scroebox">
+            <div class="scorejd font-15 color-111">评分解读</div>
+            <ul class="jddetail font-15 ">
+                <li class="c-red"><p>0-20</p>
+                    <p>极差</p></li>
+                <li class=""><p>21-45</p>
+                    <p>较差</p></li>
+                <li class=""><p>46-65</p>
+                    <p>一般</p></li>
+                <li class=""><p>66-85</p>
+                    <p>良好</p></li>
+                <li class=""><p>86-100</p>
+                    <p>优秀</p></li>
+            </ul>
+            <div class="font-12 color-111 scorems">
+                评分仅供参考,分数越高信用越好。本报告包含身份校验、借贷风险、失信等多个维度,是根据网络行为综合评估的,不包含个人隐私爬虫数据。
+            </div></div></div>
+    <div class="xin-explain box-c" style="margin: 0.2rem auto 0px;"><img src="/static/files/tz_jj.png" class="show-tz"> <!----> <!---->
+        <ul class="xin-list1 pd2">
+            <li><span class="xin-name">某某某 25岁 </span></li>
+            <li><span class="xin-phone">199****9999</span></li>
+            <li>性别：<span class=" c444">男</span></li>
+            <li>身份证号：<span class=" c444">5123**********4444</span></li>
+            <li>身份证归属地：<span class=" c444">贵州省贵阳市</span></li>
+            <li>报告编号：<span class="c444">2020082412233338888</span></li>
+        </ul>
+    </div> <!---->
+
+
+    <div class="ed-item clearfix">
+        <div class="ed-left ed-border">
+            <p class="ed-tit">信用卡预测额度</p>
+            <p class="ed-money">0-1000</p>
+        </div>
+        <div class="ed-left">
+            <p class="ed-tit">贷款预测额度</p>
+            <p class="ed-money">100-1000</p>
+        </div>
+    </div>
+    <div class="jiexi">
+        <span class="jiexi-tit">说明</span>
+        <p>额度评估，根据数学模型测算得出，仅供参考。</p>
+    </div>
+    <div class="mt15 "><h2 class="xin-title"><span class="span1"></span>逾期分析<span class="span2"></span></h2>
+        <div class="xin-num box-c"><div class="title-box"><p class="xin-title1"><span class="title-text">逾期数据走势</span></p></div>
+            <div id="duotouzoushi" style="width: 100%; height: 512px; display: block; margin: -30px 0px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative;" _echarts_instance_="ec_1620544728524"><div style="position: relative; width: 640px; height: 512px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="640" height="512" style="position: absolute; left: 0px; top: 0px; width: 640px; height: 512px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+            <script type="text/javascript">
+                $(function(){
+                    var w = $("#duotouzoushi").width()
+                    $("#duotouzoushi").attr("style","width:100%; height:"+(w*0.8)+"px;display:block;margin:-30px 0px;")
+                    var dom = document.getElementById("duotouzoushi");
+                    var myChart = echarts.init(dom);
+                    var app = {};
+                    option = null;
+                    option = {
+                        grid : {
+                            top : 60,
+                            bottom: 60,
+                            left:0,
+                            right:0
+                        },
+                        xAxis: {
+                            type: 'category',
+                            data: ['1天', '7天', '15天', '1个月'],
+                            show:true,
+                            axisLabel:{interval:0},
+                        },
+                        tooltip:{
+                            show:true
+                        },
+                        color: ['#fb806b', '#777'],
+                        legend: {
+                            data: ['逾期金额', '申请机构数'],
+                            left:"auto",
+                            top:"25"
+                        },
+                        yAxis: {
+                            type: 'value',
+                            show:false
+                        },
+                        series: [{
+                            name:"逾期金额",
+                            data: [ 16, 24, 86, 123, 186],
+                            type: 'bar',
+                            itemStyle: {
+                                normal:{
+                                    label:{
+                                        show: true, //开启显示
+                                        position: 'top', //在上方显示
+                                        textStyle: { //数值样式
+                                            color: 'black',
+                                            fontSize: 14,
+                                            color:'#fb806b'
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                            {
+                                name:"申请机构数",
+                                data: [16,20, 66, 112, 160],
+                                type: 'bar',
+                                itemStyle: {
+                                    normal:{
+                                        label:{
+                                            show: true, //开启显示
+                                            position: 'top', //在上方显示
+                                            textStyle: { //数值样式
+                                                color: 'black',
+                                                fontSize: 14,
+                                                color:'#777'
+                                            }
+                                        }
+                                    }
+                                }
+                            }]
+                    };
+                    ;
+                    if (option && typeof option === "object") {
+                        myChart.setOption(option, true);
+                    }
+                })
+            </script>
+
+        </div>
+
+
+
+
+    </div>
+
+    <div class="mt15"><h2 class="xin-title"><span class="span1"></span>特殊名单验证<span class="span2"></span></h2>
+        <div class="box-wrap  box-c ">
+            <div class="title-box box-pd"><p class="xin-title1"><span class="title-text">通过身份证号查询</span></p></div>
+            <ul class="xin-risk">
+                <li><p class="risk-tit">法院失信人<span class="risk-res"><span style="color: #ff711e">本人直接命中</span></span>
+                </p></li>
+                <li><p class="risk-tit">法院被执行人<span class="risk-res"><span style="color: #ff711e">本人直接命中</span></span>
+                </p></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="mt15"><h2 class="xin-title">
+
+        <div class="box-wrap  box-c ">
+
+            <!--            <div class="xin-court" style="padding-bottom: 0.1rem;"><p>暂无此信息</p></div>-->
+            <div class="xin-court" style="padding-bottom: 0.1rem;">
+
+                <!--            <div class="xin-court"><p>暂无此信息</p></div> </div>-->
+
+
+                <div class="footer box-c"><p style="font-size: 0.34rem; line-height: 0.8rem; color: rgb(13, 146, 255);">
+                    黑名单分析</p>
+                    <p style="text-align: left;">这里显示黑名单分析结果;</p>
+                </div>
+
+                <!--<div class="tanc-wh">-->
+                <!--    <div class="tanc-img" id="wh-img"></div>-->
+                <!--    <div class="tanc-bg"></div>-->
+                <!--    <div class="tanc-tit">长按图片保存</div>-->
+                <!--</div>-->
+
+                <!--<div class="button-home">-->
+                <!--    <p class="button-homespan" href="#"><span>保存结果</span></p>-->
+                <!--</div>-->
+                <!--<script src="https://daikuan-static.kanongyun.com/Public/static/Public/static/wangheis/js/common.js?202009241521"></script>-->
+                <!--<script src="https://daikuan-static.kanongyun.com/Public/static/Public/static/wangheis/js/lib/polyfill.min.js?202009241521"></script>-->
+                <!--<script src="https://daikuan-static.kanongyun.com/Public/static/Public/static/agency/js/idCardInfo.js"></script>-->
+                <script>
+                    var tabsSwiper = new Swiper('#tabs-container', {
+                        autoHeight: true, //自适应高度
+                        speed: 500,
+                        onSlideChangeStart: function() {
+                            $(".tit_switch .active").removeClass('active')
+                            $(".tit_switch span").eq(tabsSwiper.activeIndex).addClass('active')
+                        },
+                    });
+                    $(".tit_switch span").on('touchstart mousedown', function(e) {
+                        e.preventDefault()
+                        $(".tit_switch .active").removeClass('active')
+                        $(this).addClass('active')
+                        tabsSwiper.slideTo($(this).index(), 200)
+                    })
+                    $(".tit_switch span").click(function(e) {
+                        e.preventDefault()
+                    });
+
+                </script>
+            </div></body></html>

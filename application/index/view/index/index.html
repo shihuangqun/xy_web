@@ -1,0 +1,399 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html"  style="  background:#f9f9f9;">
+<head>
+    <meta charset="utf-8">
+    <title>查询</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="/static/css/base.css" rel="stylesheet">
+    <link href="/static/css/wanghei-two.css" rel="stylesheet">
+    <link href="/static/layui/css/layui.css" rel="stylesheet">
+    <link rel="icon" href="data:;base64,=">
+    <!--百度统计-->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?3c9700289866ebe56444d627bbcc7104";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <!--百度页面推送-->
+    <script>
+        (function(){
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https'){
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else{
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+            var recalc = function () {
+                var width = docEl.clientWidth;
+                // width = width > 750 ? 750 : width;
+                // console.log(width);
+                if(width >= 1000){
+                    width = 640
+                }
+                else if(width > 750 & width < 1000 ){
+                    width = 750;
+                };
+                docEl.style.fontSize = 100 * (width / 750) + 'px';
+            };
+            recalc();
+// 监听缩放
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+        })(document, window);
+    </script>
+    <style type="text/css">
+        .tg-redio {
+            background: url(/static/images/redio2.png) 0.04rem center no-repeat;
+            background-size: 0.3rem;
+            display: inline-block;
+            width: 0.4rem;
+            height: 0.36rem;
+            line-height: 0.36rem;
+            float: left;
+        }
+
+        .redio-dj {
+            background: url(/static/images/redio1.png) 0.04rem center no-repeat;
+            background-size: 0.3rem;
+        }
+
+        .xy-box {
+            color: #777;
+            line-height: 0.38rem;
+            padding: 0 0 0.06rem
+        }
+        .button-help {
+            width: 0.9rem;
+            height: 0.5rem;
+            background: #6880f7;
+            border-radius: 0.5rem;
+            text-align: center;
+            margin-top: 0.25rem;
+            display: block;
+            box-shadow: 0 0 0.1rem 0 rgb(96, 121, 247);
+            opacity: 0.8;
+            line-height: 0.5rem;
+            color: #fff;
+        }
+        .shouji:focus{ font-weight: bold;}
+        .shouji::-webkit-input-placeholder{font-weight:normal;}
+    </style>
+</head>
+
+<body style="  background:#f9f9f9;">
+<div>
+    <h2 class="top-logo"></h2>
+    <img class="wh-banner" src="/static/picture/wh-banner-twod6.png" width="100%">
+</div>
+
+<div class="xin-box">
+    <!--<a class="xin-button" href="https://daikuan.51kanong.com/Wanghei/example_two">点击查看样例报告</a>-->
+    <!--<div class="wh-shu" style="position: relative;">-->
+    <!--已有<span style="color: #ea615f;font-size: 0.5rem;">681516</span>人检查-->
+    <!--<a href="/wanghei/search_result" style="color: #FFF;-->
+    <!--position: absolute;-->
+    <!--right: 20px;-->
+    <!--top: 5px;-->
+    <!--background: #5f79f7;-->
+    <!--padding: 3px 5px;-->
+    <!--border-radius: 5px;-->
+    <!--font-size: 13px;">示例报告</a>-->
+    <!--</div>-->
+    <!--    <div class="xin-text">-->
+    <!--        <p>切勿相信他人以提高信用额度,优化征信等手段诈骗钱财</p>-->
+    <!--        <p>不查央行征信,无任何爬虫数据</p>-->
+    <!--    </div>-->
+    <div class="xin-tit-box">
+        <span class="xin-tit-text">专业版报告</span></div>
+    <!--填写信息-->
+    <form method="post" id="info_form" action="/wanghei/index">
+        <div class="wh-xx">
+            <div class="search_area  cl">
+                <p></p>
+                <input id="username" value="" type="text" maxlength="256" name="realname" autocomplete="off"
+                       placeholder="输入真实姓名"></div>
+            <div class="search_area  cl">
+                <p class="inco-tel"></p>
+                <input class="shouji"  value="" type="tel" maxlength="256"  onkeyup="getMoblieFormat(this)" autocomplete="off"
+                       placeholder="输入11位手机号"></div>
+            <input id="phone" value=""  type="hidden" name="mobile" autocomplete="off" placeholder="输入11位手机号">
+            <div class="search_area  cl">
+                <p class="inco-sfz"></p>
+                <input id="cardid" value="" type="text" maxlength="256" name="apply_card" autocomplete="off"
+                       placeholder="输入身份证号码"></div>
+            <div style="margin-top:0.2rem; font-size:0.26rem; line-height:0.36rem;">
+                <p style="color:#777;" id="xieyi-ys" class="xy-box">
+                    <span class="tg-redio"></span>
+                    我已阅读并同意
+                    <a href="https://daikuan.51kanong.com/jingtai/xieyi-yinsi.html" target="_blank"
+                       style="color:#ffb300;text-decoration:none;">《报告查询服务协议》</a>
+                </p>
+<!--                <p style="color:#777;" id="xieyi-bx" class="xy-box"><span class="tg-redio"></span>我同意领取免费赠送的百万意外出行保障，并已阅读及同意-->
+<!--                    <a href="/wanghei/activity_rule" target="_blank"-->
+<!--                       style="color:#ffb300;text-decoration:none;">《活动规则》</a>和-->
+<!--                    <a href="/wanghei/safe_term" target="_blank"-->
+<!--                       style="color:#ffb300;text-decoration:none;">《信息安全条款》</a>-->
+<!--                </p>-->
+            </div>
+            <a id="submit_btns" href="javascript:;" class="wh-but">
+                立即深度检测                    </a>
+            <input id="price_jzy" type="hidden" value="39.99">
+            <input type="hidden" name="see_type" id="xin-type" value="3">
+            <input type="hidden" name="upload" id="upload" value="1">
+            <input id="orders_id" type="hidden" name="orders_id" value="">
+            <input type="hidden" name="wh_source" id="wh_source" value="u_2566">
+            <input type="hidden" name="bbsuid" value="">
+        </div>
+        <p class="wh-but-b">
+            <a href="/Wanghei/example_two" ><img src="/static/picture/link1.png" alt="">示例报告</a>
+
+            <a href="/wanghei/search_history" ><img src="/static/picture/link2.png" alt="">查询记录</a>
+        </p>
+    </form>
+</div>
+<!---->
+<div class="xin-box1 mt20">
+    <div class="search-box1">
+        <div class="zhsy-title1"><span class="span1">专业版检测内容<span class="span2"></span></span></div>
+        <ul class="zhsy-list3 cl">
+            <li><img src="/static/picture/xin-inco1.png">命中风险</li>
+            <li ><img src="/static/picture/xin-inco2.png">多头借贷记录</li>
+            <li ><img src="/static/picture/xin-inco3.png">失信欺诈记录</li>
+            <li ><img src="/static/picture/xin-inco4.png">借贷异常行为</li>
+            <li ><img src="/static/picture/xin-inco5.png">黑名单检测</li>
+            <li ><img src="/static/picture/xin-inco6.png">实名风险验证</li>
+            <li ><img src="/static/picture/xin-inco7.png">运营商风险</li>
+            <li ><img src="/static/picture/xin-inco8.png">风险评估建议</li>
+        </ul>
+    </div>
+</div>
+<div class="xin-box1 mt20">
+    <div class="search-box1 cl">
+        <div class="zhsy-title1"><span class="span1">用户评论<span class="span2"></span></span></div>
+        <div id="comment">
+            <ul class="comment-list cl">
+            </ul>
+        </div>
+        <textarea class="tijiao_tex" name="" id="" cols="30" rows="10" placeholder="请输入你想说的话。（字数不少于五字）"></textarea>
+        <button class="tijiao_btn " id="tijiao">提交评论</button>
+    </div>
+</div>
+<!--<div class="button-jj cl">-->
+<!--<ul>-->
+<!--<li class="icon-binfo">-->
+<!--<i></i>-->
+<!--<span>权威数据</span>-->
+<!--</li>-->
+<!--<li class="icon-hei">-->
+<!--<i></i>-->
+<!--<span>综合全面</span>-->
+<!--</li>-->
+<!--<li>-->
+<!--<i></i>-->
+<!--<span>专业服务</span>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--<footer class="footer">-->
+<!--有问题联系客服微信：quduojin007-->
+<!--</footer>-->
+<div id="modal" style="display: none">
+    <ul class="zhsy-list1 cl">
+        <li style="width: 33.3%"><img src="/static/picture/xin-inco1.png">命中风险</li>
+        <li  style="width: 33.3%"><img src="/static/picture/xin-inco2.png">多头借贷记录</li>
+        <li  style="width: 33.3%"><img src="/static/picture/xin-inco3.png">失信欺诈记录</li>
+    </ul>
+    <div style="width: 90%;margin: 0 auto;font-size: 16px;color: #ea615f;text-align: center">
+        立即打赏检测更多个人信息，预防个人风险，借钱不再困难。
+    </div>
+</div>
+<div class="button-home">
+    <!--<a class="button-homespan" href="/wanghei/help">在线<br>解疑</a>-->
+    <a class="button-homespan" href="http://39.105.56.57/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=1&groupid=0&special=1" style="background-color: #f97f4a">在线<br>客服</a>
+    <!--<a class="button-homespan" href="/Wanghei/search_history" style="background-color: #607df9">查询<br>记录</a>-->
+</div>
+<script src="/static/js/jquery-1.8.3.min.js"></script>
+<script src="/static/js/lodash.min.js"></script>
+<script src="/static/js/layer_1.js"></script>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/index.js"></script>
+
+<!--查询人数-->
+<script type="text/javascript">
+    function getMoblieFormat(obj)
+    {
+        var value = obj.value;
+        value = value.replace(/\s*/g, "");
+        var result = [];
+        for(var i = 0; i < value.length; i++){
+            if (i==3||i==7){
+                // console.log(value.charAt(i));
+                result.push(" " + value.charAt(i));
+
+            }else{
+                result.push(value.charAt(i));
+            }
+        }
+        obj.value = result.join("");
+        $("#phone").val(result.join("").replace(/\s*/g,""))
+    };
+    history.pushState(null, null, document.URL);
+    window.addEventListener('popstate', function () {
+        layer.open({
+                skin:"mycss",
+                content: $('#modal').html(),
+                title: '您将错过以下检测',
+                area: ['6.5rem', 'auto'],
+                closeBtn: 0,
+                btn: ['继续查询' , '放弃查看'], //可以无限个按钮
+                yes: function (index) {
+                    history.pushState(null, null, document.URL);
+                    layer.close(index);
+
+                },
+                no: function (index) {
+                    window.history.go(-1);
+                }
+            }
+        );
+    });
+    $(document).ready(function () {
+        $('#tijiao').on('click',function(){
+            //提示
+            layer.open({
+                content: '请查询后，在报告内评价'
+                ,skin: 'msg'
+                ,time: 2 //2秒后自动关闭
+            });
+        });
+        var frombbs = '';
+        if (frombbs != '1') {
+            //自动填写表单
+            // setAutoCacheInfo(); //从论坛过来的请求不再自动设置缓存
+        } else {
+            // 自动调用支付功能
+            $('#info_form').submit();
+        }
+        var d = new Date().getTime()
+        $('.wh-shu .red-shu').text(Math.abs(Math.round((parseInt(d / 60000) - 26090125) / 10) * 17) + 658872)
+        $(".tg-redio").click(function () {
+            $(this).toggleClass("redio-dj");
+            var upload = $('#upload').val();
+            if(upload==0){
+                $('#upload').val(1)
+            }else{
+                $('#upload').val(0)
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+
+    function AutoScrollComment(obj){
+        $(obj).find("ul:first").animate({marginTop:"-1.6rem" },500,function(){$(this).css({marginTop:"0rem"}).find("li:first").appendTo(this);}); }
+    function random(arr,elem){
+        var result = '';
+        var len = arr.length;
+        for(var i=0;i<len ;i++){
+            var rand = parseInt(arr.length*Math.random());
+            result += arr[rand];
+            arr.splice(rand,1);
+        }
+        document.getElementsByClassName(elem)[0].innerHTML= result;
+    }
+
+    $(document).ready(
+        function(){
+            //滚动列表随机排列
+            var arr1=[
+                ['<li><img class="comment-img" src="/static/picture/tx1.png" /><div><h2 class="comment-tit">韩** 尾号6768  杭州</h2><p class="comment-text">报告很有用，是我想要的</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx2.png" /><div><h2 class="comment-tit">张** 尾号4565  成都</h2><p class="comment-text">之前的网贷的逾期记录都查出来了，厉害！</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx2.png" /><div><h2 class="comment-tit">杨** 尾号8876  岳阳</h2><p class="comment-text">客服小姐姐很有耐心，不是机器人，靠谱多了</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx2.png" /><div><h2 class="comment-tit">韦** 尾号3879  南通</h2><p class="comment-text">怪不得贷款总数被拒，是联系人影响了我</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx1.png" /><div><h2 class="comment-tit">李** 尾号3458  东莞</h2><p class="comment-text">我可以贷款吗？哪里有靠谱的借款，</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx2.png" /><div><h2 class="comment-tit">李** 尾号3456  成都</h2><p class="comment-text">报告挺准确的...</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx2.png" /><div><h2 class="comment-tit">杨** 尾号2675  长沙</h2><p class="comment-text">报告说我是黑户了，有什么办法解决吗?</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx1.png" /><div><h2 class="comment-tit">王** 尾号3567  宜昌</h2><p class="comment-text">一有问题反馈立马见效，服务又贴心。</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx2.png" /><div><h2 class="comment-tit">芦** 尾号3567  泰州</h2><p class="comment-text">几年前的申请行为都查出来了，我自己都不记得了</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx2.png" /><div><h2 class="comment-tit">王** 尾号2678  南宁</h2><p class="comment-text">查询方便，信息准确。</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx1.png" /><div><h2 class="comment-tit">邓** 尾号4567  武汉</h2><p class="comment-text">蛮好的一个查询平台,服务好。</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx2.png" /><div><h2 class="comment-tit">谢** 尾号5222  宁德</h2><p class="comment-text">解析的听到位</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx2.png" /><div><h2 class="comment-tit">王** 尾号8621  湘西</h2><p class="comment-text">我是黑户了，有什么办法解决啊？？？</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx1.png" /><div><h2 class="comment-tit">彦** 尾号1245  南京</h2><p class="comment-text">有点用，还可以。</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx2.png" /><div><h2 class="comment-tit">常** 尾号2451  湘西</h2><p class="comment-text">优化建议我看了，是不是真的有效果？</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx1.png" /><div><h2 class="comment-tit">陈** 尾号6321  运城</h2><p class="comment-text">有需要的可以测测 蛮好</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx2.png" /><div><h2 class="comment-tit">刘** 尾号1112  兴安</h2><p class="comment-text">蛮准的 信息也全面</p></div></li>'],
+                ['<li><img class="comment-img" src="/static/picture/tx1.png" /><div><h2 class="comment-tit">路** 尾号8544  西安</h2><p class="comment-text">还可以 没事查查 途个安心</p></div></li>'],
+            ];
+            random(arr1,'comment-list');
+            //列表滚动
+            setInterval('AutoScrollComment("#comment")',6500);
+        });
+</script>
+</body>
+<script src="/static/layui/layui.js"></script>
+<script>
+    layui.use('layer', function() {
+        var layer = layui.layer ;
+    });
+    $('#submit_btns').click(function () {
+        var username = $('#username').val();
+        var phone = $('#phone').val();
+        var idcard = $('#cardid').val();
+        if(username == ''){
+            layer.msg('姓名不能为空！',{icon: 2, time: 2000});
+            return false;
+        }
+        var myreg = /^[1][3,4,5,7,8,9][0-9]{9}$/;
+        if (!myreg.test(phone)) {
+            layer.msg('手机号格式不正确！',{icon: 2, time: 2000});
+            return false;
+        }
+        var reg = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+        if (!reg.test(idcard)) {
+            layer.msg('身份证号码格式错误！',{icon: 2, time: 2000});
+            return false;
+        }
+        if ($("#xieyi-ys .tg-redio").attr("class") == "tg-redio") {
+            layer.open({
+                content: "请同意报告查询服务协议",
+                skin: 'msg',
+                time: 2000
+            });
+            return false;
+        }
+
+        // $.ajax({
+        //     type:'post',
+        //     data:{
+        //         name:username,
+        //         mobile:phone,
+        //         idcard:idcard
+        //     },
+        //     url:"http://wksucha.com/api/personal/verifyIdcardNameMobile",
+        //     dataType:'json',
+        //     success:function (res) {
+        //         console.log(res);
+        //     }
+        // })
+
+    })
+</script>
+</html>

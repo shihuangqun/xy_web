@@ -1,0 +1,921 @@
+---------------------------------------------------------------
+[ 2021-05-13T19:08:43+08:00 ] 219.134.114.49 GET wksucha.com/
+[运行时间：0.037945s] [吞吐率：26.35req/s] [内存消耗：3,133.19kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000187s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002171s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002187s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000231s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'if-modified-since' => 'Fri, 22 Jan 2021 17:47:18 GMT',
+  'if-none-match' => '"600b0fa6-3fb8"',
+  'cookie' => 'UM_distinctid=17965625ac3116-07c44974be6adf-2363163-384000-17965625ac4d06; CNZZDATA1279602061=726942905-1620903856-null%7C1620903856',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://115.29.192.96:8989/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'wksucha.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001158s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/wksucha.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/wksucha.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:08:55+08:00 ] 219.134.114.49 GET wksucha.com/admins.php
+[运行时间：0.036377s] [吞吐率：27.49req/s] [内存消耗：3,025.20kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000183s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002146s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002163s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000230s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=17965625ac3116-07c44974be6adf-2363163-384000-17965625ac4d06; CNZZDATA1279602061=726942905-1620903856-null%7C1620903856',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'wksucha.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001139s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/wksucha.com/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000156s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:08:56+08:00 ] 219.134.114.49 GET wksucha.com/admins.php/index/login?url=%2Fadmins.php
+[运行时间：0.038942s] [吞吐率：25.68req/s] [内存消耗：3,334.10kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000184s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002064s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002079s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000213s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=17965625ac3116-07c44974be6adf-2363163-384000-17965625ac4d06; CNZZDATA1279602061=726942905-1620903856-null%7C1620903856; PHPSESSID=2blo5ng8lalpvq1ui4dch2nhtb',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wksucha.com/admins.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'wksucha.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admins.php',
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001118s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/wksucha.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/wksucha.com/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:08:57+08:00 ] 219.134.114.49 GET wksucha.com/index.php?s=/captcha
+[运行时间：0.030667s] [吞吐率：32.61req/s] [内存消耗：2,258.41kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000189s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002318s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002335s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000236s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=17965625ac3116-07c44974be6adf-2363163-384000-17965625ac4d06; CNZZDATA1279602061=726942905-1620903856-null%7C1620903856; PHPSESSID=2blo5ng8lalpvq1ui4dch2nhtb',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'wksucha.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/wksucha.com/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:08:57+08:00 ] 219.134.114.49 GET wksucha.com/admins.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1620904136&v=1620904136
+[运行时间：0.036843s] [吞吐率：27.14req/s] [内存消耗：3,201.38kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000181s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002280s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002297s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000240s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=17965625ac3116-07c44974be6adf-2363163-384000-17965625ac4d06; CNZZDATA1279602061=726942905-1620903856-null%7C1620903856; PHPSESSID=2blo5ng8lalpvq1ui4dch2nhtb',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'wksucha.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1620904136',
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001492s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/wksucha.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000149s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:09:02+08:00 ] 219.134.114.49 GET wksucha.com/index.php?s=/captcha&r=0.9796257893017293
+[运行时间：0.028118s] [吞吐率：35.56req/s] [内存消耗：2,258.66kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002542s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002561s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000234s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=17965625ac3116-07c44974be6adf-2363163-384000-17965625ac4d06; CNZZDATA1279602061=726942905-1620903856-null%7C1620903856; PHPSESSID=2blo5ng8lalpvq1ui4dch2nhtb; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'wksucha.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.9796257893017293',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/wksucha.com/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:09:05+08:00 ] 219.134.114.49 POST wksucha.com/admins.php/index/login?url=%2Fadmins.php
+[运行时间：0.052498s] [吞吐率：19.05req/s] [内存消耗：3,987.74kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002487s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002506s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000218s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=17965625ac3116-07c44974be6adf-2363163-384000-17965625ac4d06; CNZZDATA1279602061=726942905-1620903856-null%7C1620903856; PHPSESSID=2blo5ng8lalpvq1ui4dch2nhtb; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://wksucha.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '86',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'wksucha.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admins.php',
+  '__token__' => '730f6a4191c0db7130b75251bbe3b9eb',
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'qhnn',
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001293s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/wksucha.com/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002999s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:09:05+08:00 ] 219.134.114.49 GET wksucha.com/admins.php
+[运行时间：0.087294s] [吞吐率：11.46req/s] [内存消耗：4,492.84kb] [文件加载：154]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002433s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002452s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=17965625ac3116-07c44974be6adf-2363163-384000-17965625ac4d06; CNZZDATA1279602061=726942905-1620903856-null%7C1620903856; PHPSESSID=2blo5ng8lalpvq1ui4dch2nhtb; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'wksucha.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001276s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/wksucha.com/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/wksucha.com/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000148s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:09:05+08:00 ] 219.134.114.49 GET wksucha.com/admins.php/dashboard?addtabs=1
+[运行时间：0.050908s] [吞吐率：19.64req/s] [内存消耗：4,233.67kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000171s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002326s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002342s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000225s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=17965625ac3116-07c44974be6adf-2363163-384000-17965625ac4d06; CNZZDATA1279602061=726942905-1620903856-null%7C1620903856; PHPSESSID=2blo5ng8lalpvq1ui4dch2nhtb; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'wksucha.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001276s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /www/wwwroot/wksucha.com/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/wksucha.com/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000155s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:09:06+08:00 ] 219.134.114.49 GET wksucha.com/admins.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1620904145&v=1620904145
+[运行时间：0.038130s] [吞吐率：26.23req/s] [内存消耗：3,202.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002369s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002387s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000228s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=17965625ac3116-07c44974be6adf-2363163-384000-17965625ac4d06; CNZZDATA1279602061=726942905-1620903856-null%7C1620903856; PHPSESSID=2blo5ng8lalpvq1ui4dch2nhtb; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'wksucha.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1620904145',
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001670s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/wksucha.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:09:06+08:00 ] 219.134.114.49 GET wksucha.com/admins.php/ajax/lang?callback=define&controllername=dashboard&lang=zh-cn&v=1620904145&v=1620904145
+[运行时间：0.039867s] [吞吐率：25.08req/s] [内存消耗：3,200.78kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004198s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004216s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000220s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=17965625ac3116-07c44974be6adf-2363163-384000-17965625ac4d06; CNZZDATA1279602061=726942905-1620903856-null%7C1620903856; PHPSESSID=2blo5ng8lalpvq1ui4dch2nhtb; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'wksucha.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'lang' => 'zh-cn',
+  'v' => '1620904145',
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001584s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/wksucha.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:45:27+08:00 ] 182.61.138.160 POST wksucha.com//board_img/editor/img.asp
+[运行时间：0.041540s] [吞吐率：24.07req/s] [内存消耗：2,238.02kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003522s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003545s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000352s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'board_img',
+    1 => 'editor',
+    2 => 'img.asp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wksucha.com',
+  'content-length' => '819',
+  'x-forwarded-for' => '61.178.237.224',
+  'user-agent' => 'Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)',
+  'referer' => 'http://misc.yahoo.com.cn/',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; Charset=UTF-8',
+  'via' => '61.178.237.224',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'pass' => 'Ev al ("Ex"&"e"&"cute(""Server.ScriptTimeout=3600:On Error Resume Next:Function bd(byVal s):For i=1 To Len(s) Step 2:c=M"&"i"&"d(s,i,2):If IsNumeric(M"&"i"&"d(s,i,1)) Then:Ex"&"e"&"cute(""""bd=bd&c"&"h"&"r(&H""""&c&"""")""""):Else:Ex"&"e"&"cute(""""bd=bd&c"&"h"&"r(&H""""&c&M"&"i"&"d(s,i+2,2)&"""")""""):i=i+2:End If""&c"&"h"&"r(10)&""Next:End Function:Response.Write(""""@*lxl*@""""):Ex"&"e"&"cute(""""On Error Resume Next:""""&bd(""""526573706F6E73652E577269746528224C584C2229"""")):Response.Write(""""*@lxl@*""""):Response.End"")")',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T19:45:27+08:00 ] 182.61.138.160 POST wksucha.com//board_img/editor/img.asp
+[运行时间：0.025418s] [吞吐率：39.34req/s] [内存消耗：2,237.90kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002094s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002110s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000233s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'board_img',
+    1 => 'editor',
+    2 => 'img.asp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wksucha.com',
+  'content-length' => '684',
+  'x-forwarded-for' => '220.202.217.56',
+  'user-agent' => 'Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)',
+  'referer' => 'http://misc.yahoo.com.cn/',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; Charset=UTF-8',
+  'via' => '220.202.217.56',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'pass' => '%u0045%xec%ute%G%loba%l%(Replace("Fu%nct%ion bd(by%V%al s):Fo%r i%=1 T%o Le%n(s) S%te%p 2:c%=M%id(s,i,2):If Is%Nu%meric(M%id(s,i,1)) T%hen:bd%=bd@26@c%hr(""@26@H""@26@c):E%lse:bd%=bd@26@c%hr(""@26@H""@26@c@26@M%id(s,i+2,2)):i%=i+2:E%nd If:Ne%xt:E%nd Fu%nct%ion:E%xecu%te%(bd%(""4f6e204572726f7220526573756d65204e6578743a526573706f6e73652e57726974652022402a6c786c2a40223a526573706F6E73652E577269746528224C584C22293a526573706f6e73652e577269746520222a406c786c402a223a526573706f6e73652e456e64"")%)","@26@",chr(38)))',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T20:44:35+08:00 ] 182.61.138.160 POST wksucha.com//asp.asp
+[运行时间：0.025843s] [吞吐率：38.69req/s] [内存消耗：2,237.80kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002161s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002179s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000228s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'asp.asp',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wksucha.com',
+  'content-length' => '820',
+  'x-forwarded-for' => '61.232.7.78',
+  'user-agent' => 'Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)',
+  'referer' => 'http://misc.yahoo.com.cn/',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; Charset=UTF-8',
+  'via' => '61.232.7.78',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'huwei' => 'Ev al ("Ex"&"e"&"cute(""Server.ScriptTimeout=3600:On Error Resume Next:Function bd(byVal s):For i=1 To Len(s) Step 2:c=M"&"i"&"d(s,i,2):If IsNumeric(M"&"i"&"d(s,i,1)) Then:Ex"&"e"&"cute(""""bd=bd&c"&"h"&"r(&H""""&c&"""")""""):Else:Ex"&"e"&"cute(""""bd=bd&c"&"h"&"r(&H""""&c&M"&"i"&"d(s,i+2,2)&"""")""""):i=i+2:End If""&c"&"h"&"r(10)&""Next:End Function:Response.Write(""""@*lxl*@""""):Ex"&"e"&"cute(""""On Error Resume Next:""""&bd(""""526573706F6E73652E577269746528224C584C2229"""")):Response.Write(""""*@lxl@*""""):Response.End"")")',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T20:44:35+08:00 ] 182.61.138.160 POST wksucha.com//asp.asp
+[运行时间：0.026104s] [吞吐率：38.31req/s] [内存消耗：2,237.68kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002134s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002150s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000233s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'asp.asp',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wksucha.com',
+  'content-length' => '685',
+  'x-forwarded-for' => '61.137.247.44',
+  'user-agent' => 'Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)',
+  'referer' => 'http://misc.yahoo.com.cn/',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; Charset=UTF-8',
+  'via' => '61.137.247.44',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'huwei' => '%u0045%xec%ute%G%loba%l%(Replace("Fu%nct%ion bd(by%V%al s):Fo%r i%=1 T%o Le%n(s) S%te%p 2:c%=M%id(s,i,2):If Is%Nu%meric(M%id(s,i,1)) T%hen:bd%=bd@26@c%hr(""@26@H""@26@c):E%lse:bd%=bd@26@c%hr(""@26@H""@26@c@26@M%id(s,i+2,2)):i%=i+2:E%nd If:Ne%xt:E%nd Fu%nct%ion:E%xecu%te%(bd%(""4f6e204572726f7220526573756d65204e6578743a526573706f6e73652e57726974652022402a6c786c2a40223a526573706F6E73652E577269746528224C584C22293a526573706f6e73652e577269746520222a406c786c402a223a526573706f6e73652e456e64"")%)","@26@",chr(38)))',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T20:51:48+08:00 ] 207.46.13.161 GET wksucha.com/
+[运行时间：0.047252s] [吞吐率：21.16req/s] [内存消耗：2,926.98kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003297s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003338s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000316s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+  'host' => 'wksucha.com',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001763s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/wksucha.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/wksucha.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T22:17:13+08:00 ] 140.249.214.148 GET wksucha.com/data/admin/allowurl.txt
+[运行时间：0.026209s] [吞吐率：38.16req/s] [内存消耗：2,231.58kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002344s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002361s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000221s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'admin',
+    2 => 'allowurl.txt',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0',
+  'host' => 'wksucha.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T22:27:55+08:00 ] 175.167.130.19 GET wksucha.com/
+[运行时间：0.032930s] [吞吐率：30.37req/s] [内存消耗：2,927.86kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002295s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002309s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000224s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://m.baidu.com',
+  'bdpparallelload' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 SP-engine/2.30.0 main%2F1.0 baiduboxapp/12.14.5.10 (Baidu; P2 13.4) NABar/1.0 themeUA=Theme/default',
+  'accept' => '*/*',
+  'purpose' => 'prefetch',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wksucha.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001220s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/wksucha.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/wksucha.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T23:44:47+08:00 ] 47.103.22.26 GET wksucha.com/
+[运行时间：0.032903s] [吞吐率：30.39req/s] [内存消耗：2,924.02kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002185s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002200s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000254s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wksucha.com',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001116s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/wksucha.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/wksucha.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T23:51:47+08:00 ] 182.61.138.160 POST wksucha.com//Admin/Images/Thumb.asp
+[运行时间：0.026188s] [吞吐率：38.19req/s] [内存消耗：2,238.02kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002174s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002191s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000231s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Images',
+    2 => 'Thumb.asp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wksucha.com',
+  'content-length' => '821',
+  'x-forwarded-for' => '123.66.6.136',
+  'user-agent' => 'Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)',
+  'referer' => 'http://misc.yahoo.com.cn/',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; Charset=UTF-8',
+  'via' => '123.66.6.136',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Ev al ("Ex"&"e"&"cute(""Server.ScriptTimeout=3600:On Error Resume Next:Function bd(byVal s):For i=1 To Len(s) Step 2:c=M"&"i"&"d(s,i,2):If IsNumeric(M"&"i"&"d(s,i,1)) Then:Ex"&"e"&"cute(""""bd=bd&c"&"h"&"r(&H""""&c&"""")""""):Else:Ex"&"e"&"cute(""""bd=bd&c"&"h"&"r(&H""""&c&M"&"i"&"d(s,i+2,2)&"""")""""):i=i+2:End If""&c"&"h"&"r(10)&""Next:End Function:Response.Write(""""@*lxl*@""""):Ex"&"e"&"cute(""""On Error Resume Next:""""&bd(""""526573706F6E73652E577269746528224C584C2229"""")):Response.Write(""""*@lxl@*""""):Response.End"")")',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-13T23:51:47+08:00 ] 182.61.138.160 POST wksucha.com//Admin/Images/Thumb.asp
+[运行时间：0.029564s] [吞吐率：33.83req/s] [内存消耗：2,237.89kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002474s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002493s ]
+[ info ] [ LANG ] /www/wwwroot/wksucha.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000253s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Images',
+    2 => 'Thumb.asp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wksucha.com',
+  'content-length' => '686',
+  'x-forwarded-for' => '202.173.8.192',
+  'user-agent' => 'Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)',
+  'referer' => 'http://misc.yahoo.com.cn/',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; Charset=UTF-8',
+  'via' => '202.173.8.192',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  0 => '%u0045%xec%ute%G%loba%l%(Replace("Fu%nct%ion bd(by%V%al s):Fo%r i%=1 T%o Le%n(s) S%te%p 2:c%=M%id(s,i,2):If Is%Nu%meric(M%id(s,i,1)) T%hen:bd%=bd@26@c%hr(""@26@H""@26@c):E%lse:bd%=bd@26@c%hr(""@26@H""@26@c@26@M%id(s,i+2,2)):i%=i+2:E%nd If:Ne%xt:E%nd Fu%nct%ion:E%xecu%te%(bd%(""4f6e204572726f7220526573756d65204e6578743a526573706f6e73652e57726974652022402a6c786c2a40223a526573706F6E73652E577269746528224C584C22293a526573706f6e73652e577269746520222a406c786c402a223a526573706f6e73652e456e64"")%)","@26@",chr(38)))',
+)
+[ info ] [ LOG ] INIT File
